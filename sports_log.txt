@@ -461,3 +461,8 @@
 [2025-10-28 04:00:02] ✅ Saved 1172 programmes → C:\EPGAssets\output\merged_epg_sport.xml
 [2025-10-28 04:00:02] 🏆 Logos cached/pre-seeded for 12 teams.
 [2025-10-28 04:00:02] === Done ===
+[2025-10-28 16:00:02] === Sports-only EPG Builder v2.4 (Europe Edition) ===
+[2025-10-28 16:00:02] 🧩 All pre-seeded teams already in cache.
+[2025-10-28 16:00:03] ✅ Saved 889 programmes → C:\EPGAssets\output\merged_epg_sport.xml
+[2025-10-28 16:00:03] 🏆 Logos cached/pre-seeded for 5 teams.
+[2025-10-28 16:00:03] === Done ===
