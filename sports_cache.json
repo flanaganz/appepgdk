@@ -46,5 +46,15 @@
   "Marseille": "https://www.thesportsdb.com/images/media/team/badge/olympique-marseille.png",
   "Lyon": "https://www.thesportsdb.com/images/media/team/badge/lyon.png",
   "Monaco": "https://www.thesportsdb.com/images/media/team/badge/monaco.png",
-  "Lille": "https://www.thesportsdb.com/images/media/team/badge/lille.png"
+  "Lille": "https://www.thesportsdb.com/images/media/team/badge/lille.png",
+  "ob": "https://upload.wikimedia.org/wikipedia/en/1/1a/OB_logo.png",
+  "agf": "https://upload.wikimedia.org/wikipedia/en/d/d3/AGF_logo.svg",
+  "brøndby": "https://upload.wikimedia.org/wikipedia/en/f/f4/Br%C3%B8ndby_IF_logo.svg",
+  "sønderjysk": "https://upload.wikimedia.org/wikipedia/en/a/a3/S%C3%B8nderjyskE_logo.svg",
+  "fcn": "https://upload.wikimedia.org/wikipedia/en/f/fb/FC_Nordsj%C3%A6lland_logo.svg",
+  "aab": "https://upload.wikimedia.org/wikipedia/en/7/7f/Aalborg_BK_logo.svg",
+  "fck": "https://upload.wikimedia.org/wikipedia/en/0/0b/F.C._Copenhagen_logo.svg",
+  "silkeborg": "https://upload.wikimedia.org/wikipedia/en/8/84/Silkeborg_IF_logo.svg",
+  "viborg": "https://upload.wikimedia.org/wikipedia/en/d/d7/Viborg_FF_logo.svg",
+  "fcm": "https://upload.wikimedia.org/wikipedia/en/3/38/FC_Midtjylland_logo.svg"
 }
