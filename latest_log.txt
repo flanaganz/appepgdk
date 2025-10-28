@@ -55,3 +55,16 @@
 [2025-10-28 03:31:03] ✅ Split into 2 parts successfully.
 [2025-10-28 03:31:07] ❌ Git push failed: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
 [2025-10-28 03:31:07] === Finished. 37006 programmes processed, 0 backdrops uploaded, 2 parts created. ===
+[2025-10-28 14:00:02] === Starting EPG Enhancer v2.4 (dedup + TMDb + cache repair + upload + split + cleanup) ===
+[2025-10-28 14:00:02] Fetching https://raw.githubusercontent.com/globetvapp/epg/main/Denmark/denmark1.xml
+[2025-10-28 14:07:32] Fetching https://raw.githubusercontent.com/globetvapp/epg/main/Denmark/denmark2.xml
+[2025-10-28 14:29:22] Fetching https://www.open-epg.com/files/denmark1.xml
+[2025-10-28 14:29:22] Fetching https://www.open-epg.com/files/denmark2.xml
+[2025-10-28 14:29:23] Fetching https://epgshare01.online/epgshare01/epg_ripper_DK1.xml.gz
+[2025-10-28 15:07:55] ✅ Merged 27806 unique programmes into C:\EPGAssets\output\merged_epg.xml
+[2025-10-28 15:07:55] Backdrop upload failed: Command '['git', 'commit', '-m', 'Auto-upload 75 new/changed backdrops 2025-10-28 15:07:55']' returned non-zero exit status 1.
+[2025-10-28 15:08:12] 🪓 Created C:\EPGAssets\output\merged_epg_part1.xml (10.0 MB)
+[2025-10-28 15:08:14] 🪓 Created C:\EPGAssets\output\merged_epg_part2.xml (5.6 MB)
+[2025-10-28 15:08:14] ✅ Split into 2 parts successfully.
+[2025-10-28 15:08:25] ☁️  EPG files pushed to GitHub (merged + parts).
+[2025-10-28 15:08:25] === Finished. 27806 programmes processed, 0 backdrops uploaded, 2 parts created. ===
