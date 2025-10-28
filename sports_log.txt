@@ -1,0 +1,463 @@
+[2025-10-27 19:10:41] === Starting Sports-only EPG Builder ===
+[2025-10-27 19:10:54] SportsDB lookup failed for Viborg FF: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:10:55] SportsDB lookup failed for Viborg FF: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:10:55] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:10:55] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:10:56] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:10:56] SportsDB lookup failed for Silkeborg IF: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:10:56] SportsDB lookup failed for Silkeborg IF: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:10:57] SportsDB lookup failed for Viborg FF: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:10:57] SportsDB lookup failed for Aalborg Håndbold: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:10:58] SportsDB lookup failed for Aalborg Håndbold: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:10:58] SportsDB lookup failed for Aalborg Håndbold: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:10:58] SportsDB lookup failed for Aalborg Håndbold: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:10:59] SportsDB lookup failed for Aalborg Håndbold: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:10:59] SportsDB lookup failed for Aalborg Håndbold: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:10:59] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:00] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:00] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:00] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:01] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:01] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:01] SportsDB lookup failed for Silkeborg IF: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:02] SportsDB lookup failed for Silkeborg IF: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:02] SportsDB lookup failed for Viborg FF: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:03] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:03] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:03] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:04] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:04] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:04] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:05] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:05] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:05] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:06] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:06] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:06] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:07] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:07] SportsDB lookup failed for Bjerringbro-Silkeborg: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:07] SportsDB lookup failed for GOG: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:08] SportsDB lookup failed for Bjerringbro-Silkeborg: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:08] SportsDB lookup failed for GOG: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:09] SportsDB lookup failed for Viborg HK: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:09] SportsDB lookup failed for Viborg HK: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:09] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:10] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:10] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:10] SportsDB lookup failed for Aalborg Håndbold: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:11] SportsDB lookup failed for Aalborg Håndbold: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:11] SportsDB lookup failed for Odense Håndbold: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:11] SportsDB lookup failed for Team Esbjerg: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:12] SportsDB lookup failed for Odense Håndbold: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:12] SportsDB lookup failed for Team Esbjerg: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:13] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:13] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:13] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:14] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:14] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:14] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:15] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:15] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:15] SportsDB lookup failed for AaB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:16] SportsDB lookup failed for AGF: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:16] SportsDB lookup failed for AGF: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:16] SportsDB lookup failed for FC Nordsjælland: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:17] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:17] SportsDB lookup failed for Viborg FF: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:17] SportsDB lookup failed for Viborg FF: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:18] SportsDB lookup failed for AGF: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:18] SportsDB lookup failed for FC Nordsjælland: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:18] SportsDB lookup failed for Silkeborg IF: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:19] SportsDB lookup failed for Silkeborg IF: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:19] SportsDB lookup failed for Silkeborg IF: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:20] SportsDB lookup failed for Silkeborg IF: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:20] SportsDB lookup failed for Viborg FF: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:20] SportsDB lookup failed for Viborg FF: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:21] SportsDB lookup failed for Silkeborg IF: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:21] SportsDB lookup failed for Viborg FF: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:21] SportsDB lookup failed for Viborg FF: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:22] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:22] SportsDB lookup failed for Silkeborg IF: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:22] SportsDB lookup failed for Silkeborg IF: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:23] SportsDB lookup failed for Viborg FF: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:23] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:24] SportsDB lookup failed for Hobro IK: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:24] SportsDB lookup failed for AGF: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:24] SportsDB lookup failed for SønderjyskE: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:25] SportsDB lookup failed for AGF: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:25] SportsDB lookup failed for SønderjyskE: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:25] SportsDB lookup failed for AGF: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:26] SportsDB lookup failed for SønderjyskE: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:26] SportsDB lookup failed for Aalborg Håndbold: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:26] SportsDB lookup failed for Aalborg Håndbold: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:27] SportsDB lookup failed for Randers FC: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:27] SportsDB lookup failed for SønderjyskE: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:27] SportsDB lookup failed for Randers FC: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:28] SportsDB lookup failed for SønderjyskE: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:28] SportsDB lookup failed for Randers FC: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:29] SportsDB lookup failed for SønderjyskE: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:29] SportsDB lookup failed for Bjerringbro-Silkeborg: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:29] SportsDB lookup failed for GOG: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:30] SportsDB lookup failed for Bjerringbro-Silkeborg: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:30] SportsDB lookup failed for GOG: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:30] SportsDB lookup failed for Aalborg Håndbold: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:31] SportsDB lookup failed for Aalborg Håndbold: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:31] SportsDB lookup failed for Bjerringbro-Silkeborg: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:31] SportsDB lookup failed for GOG: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:32] SportsDB lookup failed for Bjerringbro-Silkeborg: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:32] SportsDB lookup failed for GOG: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:32] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:33] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:33] SportsDB lookup failed for Aalborg Håndbold: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:34] SportsDB lookup failed for Aalborg Håndbold: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:34] SportsDB lookup failed for Bjerringbro-Silkeborg: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:34] SportsDB lookup failed for GOG: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:35] SportsDB lookup failed for Bjerringbro-Silkeborg: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:35] SportsDB lookup failed for GOG: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:35] SportsDB lookup failed for Team Esbjerg: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:36] SportsDB lookup failed for Team Esbjerg: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:36] SportsDB lookup failed for Team Esbjerg: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:36] SportsDB lookup failed for Team Esbjerg: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:37] SportsDB lookup failed for Odense Håndbold: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:37] SportsDB lookup failed for Team Esbjerg: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:38] SportsDB lookup failed for Odense Håndbold: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:38] SportsDB lookup failed for Team Esbjerg: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:39] SportsDB lookup failed for TTH Holstebro: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:40] SportsDB lookup failed for TTH Holstebro: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:40] SportsDB lookup failed for Aalborg Håndbold: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:41] SportsDB lookup failed for Aalborg Håndbold: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:42] SportsDB lookup failed for Bjerringbro-Silkeborg: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:43] SportsDB lookup failed for GOG: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:43] SportsDB lookup failed for Bjerringbro-Silkeborg: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:44] SportsDB lookup failed for GOG: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:44] SportsDB lookup failed for Team Esbjerg: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:45] SportsDB lookup failed for Team Esbjerg: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:46] SportsDB lookup failed for SønderjyskE: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:46] SportsDB lookup failed for SønderjyskE: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:47] SportsDB lookup failed for SønderjyskE: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:47] SportsDB lookup failed for SønderjyskE: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:48] SportsDB lookup failed for SønderjyskE: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:48] SportsDB lookup failed for SønderjyskE: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:49] SportsDB lookup failed for SønderjyskE: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:50] SportsDB lookup failed for SønderjyskE: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:50] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:51] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:51] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:52] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:53] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:53] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:11:54] SportsDB lookup failed for OB: Expecting value: line 1 column 1 (char 0)
+[2025-10-27 19:12:13] ✅ Saved 1071 sports programmes to C:\EPGAssets\output\merged_epg_sport.xml
+[2025-10-27 19:12:13] 🏆 Found 0 unique teams with logos from TheSportsDB.
+[2025-10-27 19:12:13] === Finished Sports-only EPG Builder ===
+[2025-10-27 19:14:16] === Starting Sports-only EPG Builder ===
+[2025-10-27 19:14:17] SportsDB no match for OB
+[2025-10-27 19:14:17] SportsDB no match for OB
+[2025-10-27 19:14:17] SportsDB no match for OB
+[2025-10-27 19:14:18] SportsDB no match for OB
+[2025-10-27 19:14:18] SportsDB no match for OB
+[2025-10-27 19:14:19] SportsDB no match for OB
+[2025-10-27 19:14:19] SportsDB no match for OB
+[2025-10-27 19:14:19] SportsDB no match for OB
+[2025-10-27 19:14:20] SportsDB no match for OB
+[2025-10-27 19:14:20] SportsDB no match for OB
+[2025-10-27 19:14:21] SportsDB no match for Randers FC
+[2025-10-27 19:14:22] SportsDB no match for SønderjyskE
+[2025-10-27 19:14:23] SportsDB no match for Randers FC
+[2025-10-27 19:14:23] SportsDB no match for SønderjyskE
+[2025-10-27 19:14:24] SportsDB no match for Bjerringbro-Silkeborg
+[2025-10-27 19:14:25] SportsDB no match for GOG
+[2025-10-27 19:14:26] SportsDB no match for Bjerringbro-Silkeborg
+[2025-10-27 19:14:27] SportsDB no match for GOG
+[2025-10-27 19:14:27] SportsDB no match for Bjerringbro-Silkeborg
+[2025-10-27 19:14:28] SportsDB no match for GOG
+[2025-10-27 19:14:28] SportsDB no data for Bjerringbro-Silkeborg (HTTP 429)
+[2025-10-27 19:14:29] SportsDB no data for GOG (HTTP 429)
+[2025-10-27 19:14:29] SportsDB no data for FC Midtjylland (HTTP 429)
+[2025-10-27 19:14:29] SportsDB no data for FC Midtjylland (HTTP 429)
+[2025-10-27 19:14:30] SportsDB no data for FC Midtjylland (HTTP 429)
+[2025-10-27 19:14:30] SportsDB no data for FC Midtjylland (HTTP 429)
+[2025-10-27 19:14:31] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:31] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:31] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:32] SportsDB no data for Viborg FF (HTTP 429)
+[2025-10-27 19:14:32] SportsDB no data for Viborg FF (HTTP 429)
+[2025-10-27 19:14:32] SportsDB no data for Viborg FF (HTTP 429)
+[2025-10-27 19:14:33] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:33] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:33] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:34] SportsDB no data for Silkeborg IF (HTTP 429)
+[2025-10-27 19:14:34] SportsDB no data for Silkeborg IF (HTTP 429)
+[2025-10-27 19:14:34] SportsDB no data for Viborg FF (HTTP 429)
+[2025-10-27 19:14:35] SportsDB no data for Aalborg Håndbold (HTTP 429)
+[2025-10-27 19:14:35] SportsDB no data for Aalborg Håndbold (HTTP 429)
+[2025-10-27 19:14:35] SportsDB no data for Aalborg Håndbold (HTTP 429)
+[2025-10-27 19:14:36] SportsDB no data for Aalborg Håndbold (HTTP 429)
+[2025-10-27 19:14:36] SportsDB no data for Aalborg Håndbold (HTTP 429)
+[2025-10-27 19:14:36] SportsDB no data for Aalborg Håndbold (HTTP 429)
+[2025-10-27 19:14:37] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:37] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:37] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:38] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:38] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:39] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:39] SportsDB no data for Silkeborg IF (HTTP 429)
+[2025-10-27 19:14:39] SportsDB no data for Silkeborg IF (HTTP 429)
+[2025-10-27 19:14:40] SportsDB no data for Viborg FF (HTTP 429)
+[2025-10-27 19:14:40] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:40] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:41] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:41] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:41] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:42] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:42] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:43] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:43] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:43] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:44] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:44] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:44] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:45] SportsDB no data for Bjerringbro-Silkeborg (HTTP 429)
+[2025-10-27 19:14:45] SportsDB no data for GOG (HTTP 429)
+[2025-10-27 19:14:45] SportsDB no data for Bjerringbro-Silkeborg (HTTP 429)
+[2025-10-27 19:14:46] SportsDB no data for GOG (HTTP 429)
+[2025-10-27 19:14:46] SportsDB no data for Viborg HK (HTTP 429)
+[2025-10-27 19:14:47] SportsDB no data for Viborg HK (HTTP 429)
+[2025-10-27 19:14:47] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:47] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:48] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:48] SportsDB no data for Aalborg Håndbold (HTTP 429)
+[2025-10-27 19:14:48] SportsDB no data for Aalborg Håndbold (HTTP 429)
+[2025-10-27 19:14:49] SportsDB no data for Odense Håndbold (HTTP 429)
+[2025-10-27 19:14:49] SportsDB no data for Team Esbjerg (HTTP 429)
+[2025-10-27 19:14:50] SportsDB no data for Odense Håndbold (HTTP 429)
+[2025-10-27 19:14:50] SportsDB no data for Team Esbjerg (HTTP 429)
+[2025-10-27 19:14:50] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:51] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:51] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:51] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:52] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:52] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:52] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:53] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:53] SportsDB no data for AaB (HTTP 429)
+[2025-10-27 19:14:53] SportsDB no data for AGF (HTTP 429)
+[2025-10-27 19:14:54] SportsDB no data for AGF (HTTP 429)
+[2025-10-27 19:14:54] SportsDB no data for FC Nordsjælland (HTTP 429)
+[2025-10-27 19:14:55] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:14:55] SportsDB no data for Viborg FF (HTTP 429)
+[2025-10-27 19:14:55] SportsDB no data for Viborg FF (HTTP 429)
+[2025-10-27 19:14:56] SportsDB no data for AGF (HTTP 429)
+[2025-10-27 19:14:56] SportsDB no data for FC Nordsjælland (HTTP 429)
+[2025-10-27 19:14:56] SportsDB no data for Silkeborg IF (HTTP 429)
+[2025-10-27 19:14:57] SportsDB no data for Silkeborg IF (HTTP 429)
+[2025-10-27 19:14:57] SportsDB no data for Silkeborg IF (HTTP 429)
+[2025-10-27 19:14:57] SportsDB no data for Silkeborg IF (HTTP 429)
+[2025-10-27 19:14:58] SportsDB no data for Viborg FF (HTTP 429)
+[2025-10-27 19:14:58] SportsDB no data for Viborg FF (HTTP 429)
+[2025-10-27 19:14:59] SportsDB no data for Silkeborg IF (HTTP 429)
+[2025-10-27 19:14:59] SportsDB no data for Viborg FF (HTTP 429)
+[2025-10-27 19:14:59] SportsDB no data for Viborg FF (HTTP 429)
+[2025-10-27 19:15:00] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:15:00] SportsDB no data for Silkeborg IF (HTTP 429)
+[2025-10-27 19:15:00] SportsDB no data for Silkeborg IF (HTTP 429)
+[2025-10-27 19:15:01] SportsDB no data for Viborg FF (HTTP 429)
+[2025-10-27 19:15:01] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:15:01] SportsDB no data for Hobro IK (HTTP 429)
+[2025-10-27 19:15:02] SportsDB no data for AGF (HTTP 429)
+[2025-10-27 19:15:02] SportsDB no data for SønderjyskE (HTTP 429)
+[2025-10-27 19:15:03] SportsDB no data for AGF (HTTP 429)
+[2025-10-27 19:15:03] SportsDB no data for SønderjyskE (HTTP 429)
+[2025-10-27 19:15:03] SportsDB no data for AGF (HTTP 429)
+[2025-10-27 19:15:04] SportsDB no data for SønderjyskE (HTTP 429)
+[2025-10-27 19:15:04] SportsDB no data for Aalborg Håndbold (HTTP 429)
+[2025-10-27 19:15:04] SportsDB no data for Aalborg Håndbold (HTTP 429)
+[2025-10-27 19:15:05] SportsDB no data for Randers FC (HTTP 429)
+[2025-10-27 19:15:05] SportsDB no data for SønderjyskE (HTTP 429)
+[2025-10-27 19:15:06] SportsDB no data for Randers FC (HTTP 429)
+[2025-10-27 19:15:06] SportsDB no data for SønderjyskE (HTTP 429)
+[2025-10-27 19:15:06] SportsDB no data for Randers FC (HTTP 429)
+[2025-10-27 19:15:07] SportsDB no data for SønderjyskE (HTTP 429)
+[2025-10-27 19:15:07] SportsDB no data for Bjerringbro-Silkeborg (HTTP 429)
+[2025-10-27 19:15:07] SportsDB no data for GOG (HTTP 429)
+[2025-10-27 19:15:08] SportsDB no data for Bjerringbro-Silkeborg (HTTP 429)
+[2025-10-27 19:15:08] SportsDB no data for GOG (HTTP 429)
+[2025-10-27 19:15:09] SportsDB no data for Aalborg Håndbold (HTTP 429)
+[2025-10-27 19:15:09] SportsDB no data for Aalborg Håndbold (HTTP 429)
+[2025-10-27 19:15:09] SportsDB no data for Bjerringbro-Silkeborg (HTTP 429)
+[2025-10-27 19:15:10] SportsDB no data for GOG (HTTP 429)
+[2025-10-27 19:15:10] SportsDB no data for Bjerringbro-Silkeborg (HTTP 429)
+[2025-10-27 19:15:10] SportsDB no data for GOG (HTTP 429)
+[2025-10-27 19:15:11] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:15:11] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:15:11] SportsDB no data for Aalborg Håndbold (HTTP 429)
+[2025-10-27 19:15:12] SportsDB no data for Aalborg Håndbold (HTTP 429)
+[2025-10-27 19:15:12] SportsDB no data for Bjerringbro-Silkeborg (HTTP 429)
+[2025-10-27 19:15:13] SportsDB no data for GOG (HTTP 429)
+[2025-10-27 19:15:13] SportsDB no data for Bjerringbro-Silkeborg (HTTP 429)
+[2025-10-27 19:15:13] SportsDB no data for GOG (HTTP 429)
+[2025-10-27 19:15:14] SportsDB no data for Team Esbjerg (HTTP 429)
+[2025-10-27 19:15:14] SportsDB no data for Team Esbjerg (HTTP 429)
+[2025-10-27 19:15:14] SportsDB no data for Team Esbjerg (HTTP 429)
+[2025-10-27 19:15:15] SportsDB no data for Team Esbjerg (HTTP 429)
+[2025-10-27 19:15:15] SportsDB no data for Odense Håndbold (HTTP 429)
+[2025-10-27 19:15:15] SportsDB no data for Team Esbjerg (HTTP 429)
+[2025-10-27 19:15:16] SportsDB no data for Odense Håndbold (HTTP 429)
+[2025-10-27 19:15:16] SportsDB no data for Team Esbjerg (HTTP 429)
+[2025-10-27 19:15:16] SportsDB no data for TTH Holstebro (HTTP 429)
+[2025-10-27 19:15:17] SportsDB no data for TTH Holstebro (HTTP 429)
+[2025-10-27 19:15:17] SportsDB no data for Aalborg Håndbold (HTTP 429)
+[2025-10-27 19:15:17] SportsDB no data for Aalborg Håndbold (HTTP 429)
+[2025-10-27 19:15:18] SportsDB no data for Bjerringbro-Silkeborg (HTTP 429)
+[2025-10-27 19:15:18] SportsDB no data for GOG (HTTP 429)
+[2025-10-27 19:15:19] SportsDB no data for Bjerringbro-Silkeborg (HTTP 429)
+[2025-10-27 19:15:19] SportsDB no data for GOG (HTTP 429)
+[2025-10-27 19:15:19] SportsDB no data for Team Esbjerg (HTTP 429)
+[2025-10-27 19:15:20] SportsDB no data for Team Esbjerg (HTTP 429)
+[2025-10-27 19:15:20] SportsDB no data for SønderjyskE (HTTP 429)
+[2025-10-27 19:15:20] SportsDB no data for SønderjyskE (HTTP 429)
+[2025-10-27 19:15:21] SportsDB no data for SønderjyskE (HTTP 429)
+[2025-10-27 19:15:21] SportsDB no data for SønderjyskE (HTTP 429)
+[2025-10-27 19:15:21] SportsDB no data for SønderjyskE (HTTP 429)
+[2025-10-27 19:15:22] SportsDB no data for SønderjyskE (HTTP 429)
+[2025-10-27 19:15:22] SportsDB no data for SønderjyskE (HTTP 429)
+[2025-10-27 19:15:23] SportsDB no data for SønderjyskE (HTTP 429)
+[2025-10-27 19:15:23] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:15:24] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:15:24] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:15:25] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:15:26] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:15:27] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:15:29] SportsDB no match for OB
+[2025-10-27 19:15:30] SportsDB no match for OB
+[2025-10-27 19:15:31] SportsDB no match for OB
+[2025-10-27 19:15:32] SportsDB no match for OB
+[2025-10-27 19:15:32] SportsDB no match for OB
+[2025-10-27 19:15:33] SportsDB no match for OB
+[2025-10-27 19:15:34] SportsDB no match for FC Midtjylland
+[2025-10-27 19:15:36] SportsDB no match for AGF
+[2025-10-27 19:15:36] SportsDB no match for FC Midtjylland
+[2025-10-27 19:15:37] SportsDB no match for AGF
+[2025-10-27 19:15:38] SportsDB no match for FC Midtjylland
+[2025-10-27 19:15:39] SportsDB no match for AGF
+[2025-10-27 19:15:40] SportsDB no match for FC Midtjylland
+[2025-10-27 19:15:41] SportsDB no match for AGF
+[2025-10-27 19:15:43] SportsDB no match for FC Midtjylland
+[2025-10-27 19:15:45] SportsDB no match for Brøndby IF
+[2025-10-27 19:15:47] SportsDB no match for Brøndby IF
+[2025-10-27 19:15:49] SportsDB no match for Brøndby IF
+[2025-10-27 19:15:50] SportsDB no match for OB
+[2025-10-27 19:15:50] SportsDB no match for OB
+[2025-10-27 19:15:51] SportsDB no match for Brøndby IF
+[2025-10-27 19:15:52] SportsDB no match for Brøndby IF
+[2025-10-27 19:15:53] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:15:54] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:15:54] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:15:55] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:15:55] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:15:56] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:15:56] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:15:57] SportsDB no data for OB (HTTP 429)
+[2025-10-27 19:15:57] ✅ Saved 1071 sports programmes to C:\EPGAssets\output\merged_epg_sport.xml
+[2025-10-27 19:15:57] 🏆 Found 0 unique teams with logos from TheSportsDB.
+[2025-10-27 19:15:57] === Finished Sports-only EPG Builder ===
+[2025-10-27 19:39:25] === Starting Sports-only EPG Builder v2.2 ===
+[2025-10-27 19:39:28] SportsDB no match for OB
+[2025-10-27 19:39:32] SportsDB no match for OB
+[2025-10-27 19:39:35] SportsDB no match for OB
+[2025-10-27 19:39:38] SportsDB no match for OB
+[2025-10-27 19:39:41] SportsDB no match for OB
+[2025-10-27 19:39:45] SportsDB no match for OB
+[2025-10-27 19:39:48] SportsDB no match for OB
+[2025-10-27 19:39:52] SportsDB no match for OB
+[2025-10-27 19:39:55] SportsDB no match for OB
+[2025-10-27 19:39:59] SportsDB no match for OB
+[2025-10-27 19:40:00] ⚠️ Rate limited (429). Waiting 5 seconds...
+[2025-10-27 19:40:06] ⚠️ Rate limited (429). Waiting 5 seconds...
+[2025-10-27 19:40:12] ⚠️ Rate limited (429). Waiting 5 seconds...
+[2025-10-27 19:40:18] ⚠️ Rate limited (429). Waiting 5 seconds...
+[2025-10-27 19:40:24] ⚠️ Rate limited (429). Waiting 5 seconds...
+[2025-10-27 19:40:30] ⚠️ Rate limited (429). Waiting 5 seconds...
+[2025-10-27 19:40:36] ⚠️ Rate limited (429). Waiting 5 seconds...
+[2025-10-27 19:40:42] ⚠️ Rate limited (429). Waiting 5 seconds...
+[2025-10-27 19:40:48] ⚠️ Rate limited (429). Waiting 5 seconds...
+[2025-10-27 19:40:54] ⚠️ Rate limited (429). Waiting 5 seconds...
+[2025-10-27 19:41:01] SportsDB no match for Randers FC
+[2025-10-27 19:41:04] SportsDB no match for SønderjyskE
+[2025-10-27 19:41:06] SportsDB no match for Randers FC
+[2025-10-27 19:41:08] SportsDB no match for SønderjyskE
+[2025-10-27 19:41:11] SportsDB no match for FC Midtjylland
+[2025-10-27 19:41:15] SportsDB no match for FC Midtjylland
+[2025-10-27 19:41:18] SportsDB no match for FC Midtjylland
+[2025-10-27 19:41:21] SportsDB no match for FC Midtjylland
+[2025-10-27 19:41:24] SportsDB no match for OB
+[2025-10-27 19:41:28] SportsDB no match for OB
+[2025-10-27 19:41:31] SportsDB no match for OB
+[2025-10-27 19:41:33] SportsDB no match for Viborg FF
+[2025-10-27 19:41:34] ⚠️ Rate limited (429). Waiting 5 seconds...
+[2025-10-27 19:41:40] ⚠️ Rate limited (429). Waiting 5 seconds...
+[2025-10-27 19:41:46] ⚠️ Rate limited (429). Waiting 5 seconds...
+[2025-10-27 19:41:52] ⚠️ Rate limited (429). Waiting 5 seconds...
+[2025-10-27 19:41:58] ⚠️ Rate limited (429). Waiting 5 seconds...
+[2025-10-27 19:42:05] ⚠️ Rate limited (429). Waiting 5 seconds...
+[2025-10-27 19:42:11] ⚠️ Rate limited (429). Waiting 5 seconds...
+[2025-10-27 19:42:17] ⚠️ Rate limited (429). Waiting 5 seconds...
+[2025-10-27 19:42:23] ⚠️ Rate limited (429). Waiting 5 seconds...
+[2025-10-27 19:42:29] ⚠️ Rate limited (429). Waiting 5 seconds...
+[2025-10-27 19:42:37] SportsDB no match for Viborg FF
+[2025-10-27 19:42:39] SportsDB no match for Viborg FF
+[2025-10-27 19:42:43] SportsDB no match for OB
+[2025-10-27 19:42:47] SportsDB no match for OB
+[2025-10-27 19:42:51] SportsDB no match for OB
+[2025-10-27 19:42:55] SportsDB no match for Silkeborg IF
+[2025-10-27 19:42:59] SportsDB no match for Silkeborg IF
+[2025-10-27 19:43:01] SportsDB no match for Viborg FF
+[2025-10-27 19:43:05] SportsDB no match for OB
+[2025-10-27 19:43:09] SportsDB no match for OB
+[2025-10-27 19:43:13] SportsDB no match for OB
+[2025-10-27 19:43:17] SportsDB no match for OB
+[2025-10-27 19:43:21] SportsDB no match for OB
+[2025-10-27 19:43:24] SportsDB no match for OB
+[2025-10-27 19:43:26] ⚠️ Rate limited (429). Waiting 5 seconds...
+[2025-10-27 19:43:32] ⚠️ Rate limited (429). Waiting 5 seconds...
+[2025-10-27 19:43:38] ⚠️ Rate limited (429). Waiting 5 seconds...
+[2025-10-27 19:43:44] ⚠️ Rate limited (429). Waiting 5 seconds...
+[2025-10-27 19:43:51] ⚠️ Rate limited (429). Waiting 5 seconds...
+[2025-10-27 19:43:57] ⚠️ Rate limited (429). Waiting 5 seconds...
+[2025-10-27 19:44:03] ⚠️ Rate limited (429). Waiting 5 seconds...
+[2025-10-27 19:44:09] ⚠️ Rate limited (429). Waiting 5 seconds...
+[2025-10-27 19:44:15] ⚠️ Rate limited (429). Waiting 5 seconds...
+[2025-10-27 19:44:22] ⚠️ Rate limited (429). Waiting 5 seconds...
+[2025-10-27 19:44:31] SportsDB no match for Silkeborg IF
+[2025-10-27 19:44:35] SportsDB no match for Silkeborg IF
+[2025-10-27 19:44:37] SportsDB no match for Viborg FF
+[2025-10-27 19:44:41] SportsDB no match for OB
+[2025-10-27 19:44:45] SportsDB no match for OB
+[2025-10-27 19:44:49] SportsDB no match for OB
+[2025-10-27 19:44:53] SportsDB no match for OB
+[2025-10-27 19:46:54] === Starting Sports-only EPG Builder v2.3 ===
+[2025-10-27 19:46:54] 🧩 Pre-seeded 13 Danish team logos into cache.
+[2025-10-27 19:46:55] ✅ Saved 1071 sports programmes to C:\EPGAssets\output\merged_epg_sport.xml
+[2025-10-27 19:46:55] 🏆 Found 4 unique teams with logos (cached/preseeded).
+[2025-10-27 19:46:55] === Finished Sports-only EPG Builder v2.3 ===
+[2025-10-27 19:49:57] === Sports-only EPG Builder v2.4 (Europe Edition) ===
+[2025-10-27 19:49:57] 🧩 Pre-seeded 35 European team logos.
+[2025-10-27 19:49:58] ✅ Saved 1112 programmes → C:\EPGAssets\output\merged_epg_sport.xml
+[2025-10-27 19:49:58] 🏆 Logos cached/pre-seeded for 12 teams.
+[2025-10-27 19:49:58] === Done ===
+[2025-10-27 20:38:15] === Sports-only EPG Builder v2.4 (Europe Edition) ===
+[2025-10-27 20:38:15] 🧩 All pre-seeded teams already in cache.
+[2025-10-27 20:38:16] ✅ Saved 1098 programmes → C:\EPGAssets\output\merged_epg_sport.xml
+[2025-10-27 20:38:16] 🏆 Logos cached/pre-seeded for 12 teams.
+[2025-10-27 20:38:16] === Done ===
+[2025-10-27 20:38:21] === Starting Sports-only EPG Builder ===
+[2025-10-27 20:38:23] SportsDB no match for Silkeborg IF
+[2025-10-27 20:38:24] SportsDB no match for Silkeborg IF
+[2025-10-27 20:38:25] SportsDB no match for Silkeborg IF
+[2025-10-27 20:38:26] SportsDB no match for Silkeborg IF
+[2025-10-27 20:38:27] SportsDB no match for Viborg HK
+[2025-10-28 04:00:01] === Sports-only EPG Builder v2.4 (Europe Edition) ===
+[2025-10-28 04:00:01] 🧩 All pre-seeded teams already in cache.
+[2025-10-28 04:00:02] ✅ Saved 1172 programmes → C:\EPGAssets\output\merged_epg_sport.xml
+[2025-10-28 04:00:02] 🏆 Logos cached/pre-seeded for 12 teams.
+[2025-10-28 04:00:02] === Done ===

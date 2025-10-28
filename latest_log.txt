@@ -1,0 +1,57 @@
+[2025-10-27 14:06:42] === Starting EPG Enhancer v2 ===
+[2025-10-27 14:06:42] Fetching https://raw.githubusercontent.com/globetvapp/epg/main/Denmark/denmark1.xml
+[2025-10-27 14:17:26] Fetching https://raw.githubusercontent.com/globetvapp/epg/main/Denmark/denmark2.xml
+[2025-10-27 14:33:13] Fetching https://www.open-epg.com/files/denmark1.xml
+[2025-10-27 14:35:09] Fetching https://www.open-epg.com/files/denmark2.xml
+[2025-10-27 14:37:34] Fetching https://epgshare01.online/epgshare01/epg_ripper_DK1.xml.gz
+[2025-10-27 14:53:06] ✅ Merged 42187 programmes into C:\EPGAssets\output\merged_epg.xml
+[2025-10-27 14:53:06] === Finished. 42187 programmes processed. ===
+[2025-10-27 15:56:24] === Starting EPG Enhancer v2 (dedup+upload) ===
+[2025-10-27 15:56:24] Fetching https://raw.githubusercontent.com/globetvapp/epg/main/Denmark/denmark1.xml
+[2025-10-27 15:56:25] Fetching https://raw.githubusercontent.com/globetvapp/epg/main/Denmark/denmark2.xml
+[2025-10-27 15:56:26] Fetching https://www.open-epg.com/files/denmark1.xml
+[2025-10-27 15:56:27] Fetching https://www.open-epg.com/files/denmark2.xml
+[2025-10-27 15:56:28] Fetching https://epgshare01.online/epgshare01/epg_ripper_DK1.xml.gz
+[2025-10-27 15:56:29] ✅ Merged 35466 unique programmes into C:\EPGAssets\output\merged_epg.xml
+[2025-10-27 15:56:37] 📤 Uploaded 35 new/updated backdrops to GitHub.
+[2025-10-27 15:56:37] === Finished. 35466 programmes processed, 35 backdrops uploaded. ===
+[2025-10-27 17:10:38] === Starting EPG Enhancer v2.3 (dedup + TMDb hash + upload + split + push + cleanup) ===
+[2025-10-27 17:10:39] Fetching https://raw.githubusercontent.com/globetvapp/epg/main/Denmark/denmark1.xml
+[2025-10-27 17:10:40] TMDb lookup failed for Salvage Hunters: 'str' object has no attribute 'get'
+[2025-10-27 17:15:42] === Starting EPG Enhancer v2.4 (dedup + TMDb + cache repair + upload + split + cleanup) ===
+[2025-10-27 17:15:42] Fetching https://raw.githubusercontent.com/globetvapp/epg/main/Denmark/denmark1.xml
+[2025-10-27 17:33:33] Fetching https://raw.githubusercontent.com/globetvapp/epg/main/Denmark/denmark2.xml
+[2025-10-27 18:16:36] Fetching https://www.open-epg.com/files/denmark1.xml
+[2025-10-27 18:27:40] Fetching https://www.open-epg.com/files/denmark2.xml
+[2025-10-27 19:01:42] Fetching https://epgshare01.online/epgshare01/epg_ripper_DK1.xml.gz
+[2025-10-27 20:21:33] 🧹 Trimmed 2748 old TMDb cache entries.
+[2025-10-27 20:21:33] ✅ Merged 35587 unique programmes into C:\EPGAssets\output\merged_epg.xml
+[2025-10-27 20:21:33] 💾 Auto-fixed 2348 legacy cache entries.
+[2025-10-27 20:21:33] Backdrop upload failed: Command '['git', 'commit', '-m', 'Auto-upload 75 new/changed backdrops 2025-10-27 20:21:33']' returned non-zero exit status 1.
+[2025-10-27 20:21:53] 🪓 Created C:\EPGAssets\output\merged_epg_part1.xml (10.0 MB)
+[2025-10-27 20:21:56] 🪓 Created C:\EPGAssets\output\merged_epg_part2.xml (8.7 MB)
+[2025-10-27 20:21:56] ✅ Split into 2 parts successfully.
+[2025-10-27 20:22:06] ☁️  EPG files pushed to GitHub (merged + parts).
+[2025-10-27 20:22:06] 🧹 Running weekly git history cleanup ...
+[2025-10-27 20:22:38] ✅ Old Git history pruned.
+[2025-10-27 20:22:38] === Finished. 35587 programmes processed, 0 backdrops uploaded, 2 parts created. ===
+[2025-10-28 02:00:01] === Starting EPG Enhancer v2.4 (dedup + TMDb + cache repair + upload + split + cleanup) ===
+[2025-10-28 02:00:01] Fetching https://raw.githubusercontent.com/globetvapp/epg/main/Denmark/denmark1.xml
+[2025-10-28 02:12:19] Fetching https://raw.githubusercontent.com/globetvapp/epg/main/Denmark/denmark2.xml
+[2025-10-28 02:35:03] TMDb lookup failed for 2. verdenskrig - slagene om Europa: HTTPSConnectionPool(host='api.themoviedb.org', port=443): Read timed out. (read timeout=15)
+[2025-10-28 02:35:30] TMDb lookup failed for De egyptiske prestinnenes gravkamre: HTTPSConnectionPool(host='api.themoviedb.org', port=443): Read timed out. (read timeout=15)
+[2025-10-28 02:35:46] TMDb lookup failed for Faraoene - større enn pyramidene: HTTPSConnectionPool(host='api.themoviedb.org', port=443): Read timed out. (read timeout=15)
+[2025-10-28 02:36:01] TMDb lookup failed for Faraoene - større enn pyramidene: HTTPSConnectionPool(host='api.themoviedb.org', port=443): Read timed out. (read timeout=15)
+[2025-10-28 02:38:05] TMDb lookup failed for Landerspiegel: HTTPSConnectionPool(host='api.themoviedb.org', port=443): Read timed out. (read timeout=15)
+[2025-10-28 02:38:21] TMDb lookup failed for Bares fur Rares: HTTPSConnectionPool(host='api.themoviedb.org', port=443): Read timed out. (read timeout=15)
+[2025-10-28 02:38:50] TMDb lookup failed for Oktopus in Gefahr – Spurensuche rund ums Mittelmeer: HTTPSConnectionPool(host='api.themoviedb.org', port=443): Read timed out. (read timeout=15)
+[2025-10-28 02:39:14] Fetching https://www.open-epg.com/files/denmark1.xml
+[2025-10-28 02:46:13] Fetching https://www.open-epg.com/files/denmark2.xml
+[2025-10-28 02:57:27] Fetching https://epgshare01.online/epgshare01/epg_ripper_DK1.xml.gz
+[2025-10-28 03:30:46] ✅ Merged 37006 unique programmes into C:\EPGAssets\output\merged_epg.xml
+[2025-10-28 03:30:46] Backdrop upload failed: Command '['git', 'commit', '-m', 'Auto-upload 75 new/changed backdrops 2025-10-28 03:30:46']' returned non-zero exit status 1.
+[2025-10-28 03:31:00] 🪓 Created C:\EPGAssets\output\merged_epg_part1.xml (10.0 MB)
+[2025-10-28 03:31:03] 🪓 Created C:\EPGAssets\output\merged_epg_part2.xml (9.2 MB)
+[2025-10-28 03:31:03] ✅ Split into 2 parts successfully.
+[2025-10-28 03:31:07] ❌ Git push failed: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+[2025-10-28 03:31:07] === Finished. 37006 programmes processed, 0 backdrops uploaded, 2 parts created. ===
