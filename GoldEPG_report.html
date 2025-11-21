@@ -2,28 +2,414 @@
 <html lang="da">
 <head>
   <meta charset="utf-8">
-  <title>GoldEPG Rapport v3.2</title>
+  <title>GoldEPG Rapport v4.0</title>
+  <style>
+    :root {
+      --bg-main: #0f111a;
+      --bg-card: #171927;
+      --bg-card-soft: #1f2233;
+      --border-subtle: #252842;
+      --accent: #5df28c;
+      --accent-soft: rgba(93, 242, 140, 0.15);
+      --accent-2: #69a7ff;
+      --accent-2-soft: rgba(105, 167, 255, 0.15);
+      --warn: #ffc442;
+      --warn-soft: rgba(255, 196, 66, 0.15);
+      --danger: #ff5e5e;
+      --danger-soft: rgba(255, 94, 94, 0.18);
+      --text-main: #e5e7f1;
+      --text-muted: #8b8fa6;
+      --mono: "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      --sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      --radius-lg: 14px;
+      --radius-pill: 999px;
+      --shadow-soft: 0 18px 45px rgba(0, 0, 0, 0.50);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 24px;
+      font-family: var(--sans);
+      background: radial-gradient(circle at top, #1a1d2b 0, #090a0f 55%, #05060a 100%);
+      color: var(--text-main);
+    }
+
+    .page {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .title-block h1 {
+      margin: 0 0 4px 0;
+      font-size: 26px;
+      letter-spacing: 0.03em;
+    }
+
+    .title-block p {
+      margin: 0;
+      color: var(--text-muted);
+      font-size: 13px;
+    }
+
+    .chip-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .chip {
+      padding: 6px 10px;
+      border-radius: var(--radius-pill);
+      background-color: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.05);
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    .chip strong {
+      color: var(--text-main);
+      margin-right: 4px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+
+    .section {
+      margin-bottom: 24px;
+    }
+
+    .section h2 {
+      margin: 0 0 10px 0;
+      font-size: 18px;
+      letter-spacing: 0.03em;
+    }
+
+    .card {
+      background: linear-gradient(145deg, rgba(23,25,39,0.98), rgba(32,36,60,0.98));
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border-subtle);
+      padding: 14px 16px;
+      box-shadow: var(--shadow-soft);
+    }
+
+    .card-soft {
+      background: radial-gradient(circle at top left, rgba(105,167,255,0.12), rgba(23,25,39,0.96));
+      border-radius: var(--radius-lg);
+      border: 1px solid rgba(105,167,255,0.25);
+      padding: 14px 16px;
+      box-shadow: var(--shadow-soft);
+    }
+
+    .card-danger {
+      background: radial-gradient(circle at top, var(--danger-soft), #1b0f16);
+      border: 1px solid rgba(255,94,94,0.65);
+      border-radius: var(--radius-lg);
+      padding: 14px 16px;
+      box-shadow: var(--shadow-soft);
+    }
+
+    .card h3 {
+      margin: 0 0 8px 0;
+      font-size: 15px;
+    }
+
+    .card p, .card ul {
+      margin: 4px 0;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    .metrics-row {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .metric {
+      margin-bottom: 4px;
+    }
+
+    .metric-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-size: 12px;
+      margin-bottom: 3px;
+    }
+
+    .metric-label {
+      color: var(--text-muted);
+    }
+
+    .metric-value {
+      font-variant-numeric: tabular-nums;
+      font-weight: 600;
+      color: var(--accent);
+    }
+
+    .bar {
+      position: relative;
+      width: 100%;
+      height: 8px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, rgba(255,255,255,0.03), rgba(255,255,255,0.02));
+      overflow: hidden;
+      border: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .bar-fill {
+      height: 100%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, var(--accent), var(--accent-2));
+      box-shadow: 0 0 12px rgba(93,242,140,0.7);
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 4px 9px;
+      border-radius: var(--radius-pill);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .badge-success {
+      background-color: rgba(93, 242, 140, 0.16);
+      color: var(--accent);
+      border: 1px solid rgba(93, 242, 140, 0.4);
+    }
+
+    .badge-warn {
+      background-color: var(--warn-soft);
+      color: var(--warn);
+      border: 1px solid rgba(255, 196, 66, 0.6);
+    }
+
+    .badge-danger {
+      background-color: var(--danger-soft);
+      color: var(--danger);
+      border: 1px solid rgba(255, 94, 94, 0.7);
+    }
+
+    .badge-info {
+      background-color: var(--accent-2-soft);
+      color: var(--accent-2);
+      border: 1px solid rgba(105,167,255,0.7);
+    }
+
+    .muted {
+      color: var(--text-muted);
+      font-size: 13px;
+    }
+
+    .mono {
+      font-family: var(--mono);
+      font-size: 11px;
+    }
+
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 6px;
+      font-size: 12px;
+    }
+
+    .data-table thead {
+      background-color: rgba(255,255,255,0.03);
+    }
+
+    .data-table th,
+    .data-table td {
+      border-bottom: 1px solid rgba(255,255,255,0.04);
+      padding: 4px 6px;
+      text-align: left;
+    }
+
+    .data-table tbody tr:nth-child(odd) {
+      background-color: rgba(255,255,255,0.01);
+    }
+
+    .pill-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin: 6px 0 2px 0;
+    }
+
+    .pill {
+      padding: 4px 8px;
+      border-radius: var(--radius-pill);
+      background-color: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.05);
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    .score-pill {
+      display: inline-flex;
+      align-items: center;
+      padding: 2px 8px;
+      border-radius: var(--radius-pill);
+      font-size: 11px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .score-good {
+      background-color: rgba(93,242,140,0.16);
+      color: var(--accent);
+      border: 1px solid rgba(93,242,140,0.5);
+    }
+
+    .score-mid {
+      background-color: rgba(255,196,66,0.16);
+      color: var(--warn);
+      border: 1px solid rgba(255,196,66,0.5);
+    }
+
+    .score-bad {
+      background-color: rgba(255,94,94,0.16);
+      color: var(--danger);
+      border: 1px solid rgba(255,94,94,0.6);
+    }
+
+    .footer-note {
+      margin-top: 20px;
+      font-size: 11px;
+      color: var(--text-muted);
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    @media (max-width: 720px) {
+      body {
+        padding: 16px;
+      }
+      .header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
 </head>
 <body>
-  <h1>GoldEPG Rapport v3.2</h1>
-  <p><b>Kørt:</b> 2025-11-21 15:24:36</p>
-  <h2>Overblik</h2>
-  <ul>
-    <li>Total programmes: 5262</li>
-    <li>Med backdrop/icon: 3793 (72.1%)</li>
-    <li>Placeholders (on-demand/tema): 71</li>
-  </ul>
-  <h2>Backdrop-kilder</h2>
-  <ul>
-    <li>GitHub backdrops: 890</li>
-    <li>TMDb cache fallback: 2901</li>
-    <li>TMDb live fallback hits: 2</li>
-    <li>Fjernede TMDb-ikoner fra source: 0</li>
-  </ul>
-  <h2>EPG Anomaly Detector</h2>
-  <p>Første run – baseline oprettet. Ingen anomalies rapporteret.</p>
+  <div class="page">
+    <div class="header">
+      <div class="title-block">
+        <h1>GoldEPG Rapport v4.0</h1>
+        <p>Kørt: <span class="mono">2025-11-21 18:05:02</span></p>
+      </div>
+      <div class="chip-group">
+        <div class="chip"><strong>Programmer</strong> 6619</div>
+        <div class="chip"><strong>Backdrops</strong> 4335</div>
+        <div class="chip"><strong>Beskrivelser</strong> 6517</div>
+        <div class="chip"><strong>Placeholders</strong> 63</div>
+      </div>
+    </div>
 
-  <h2>Match report</h2>
-  <p>CSV: C:\EPGAssets\output\dk_match_report_v3_2.csv</p>
+    <div class="section grid">
+      <div class="card">
+        <h3>Overblik</h3>
+        <div class="metrics-row">
+          
+        <div class="metric">
+          <div class="metric-header">
+            <span class="metric-label">Backdrop/icon dækning</span>
+            <span class="metric-value">65.5%</span>
+          </div>
+          <div class="bar">
+            <div class="bar-fill" style="width:65.5%"></div>
+          </div>
+        </div>
+        
+          
+        <div class="metric">
+          <div class="metric-header">
+            <span class="metric-label">Beskrivelses-dækning</span>
+            <span class="metric-value">98.5%</span>
+          </div>
+          <div class="bar">
+            <div class="bar-fill" style="width:98.5%"></div>
+          </div>
+        </div>
+        
+        </div>
+        <p class="muted">
+          Dækning beregnes ud fra antal programmer med hhv. backdrop/icon og beskrivelse
+          i forhold til total antal programmer i GoldEPG.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Backdrop-kilder</h3>
+        <ul>
+          <li>GitHub backdrops: <b>1151</b></li>
+          <li>TMDb cache fallback: <b>3078</b></li>
+          <li>TMDb live fallback hits: <b>106</b></li>
+          <li>Fjernede TMDb-ikoner fra source: <b>0</b></li>
+        </ul>
+        <div class="pill-list">
+          <span class="pill">GitHub → primær kilde</span>
+          <span class="pill">TMDb cache → sekundær</span>
+          <span class="pill">TMDb live → sidste fallback</span>
+        </div>
+      </div>
+
+      <div class="card-soft">
+        <h3>EPG Anomaly Detector <span class="badge badge-info">Baseline oprettet</span></h3>
+        <p>Første run – baseline oprettet. Ingen anomalies rapporteret endnu.</p>
+        <p class="muted">
+          Anomalier opstår typisk når EPG-kilder ændrer kanalnavne, kanal-liste eller re-mapper IDs.
+          Brug disse data til at holde øje med "mærkeligt shit" i EPG-leverandørerne.
+        </p>
+      </div>
+    </div>
+
+    <div class="section grid">
+      <div class="card">
+        <h2>Top 10 kanaler uden artwork</h2>
+        <table class='data-table'><thead><tr><th>Kanal</th><th>ID</th><th>Mangler (antal/total)</th><th>Dækning</th></tr></thead><tbody><tr><td>TV2 Sport HD DK</td><td class='mono'>tv2sport.dk</td><td class='mono'>593/1003</td><td>40.9%</td></tr><tr><td>National Geographic Wild FHD DK</td><td class='mono'>natgeowild.dk</td><td class='mono'>117/274</td><td>57.3%</td></tr><tr><td>TV2 Bornholm HD DK</td><td class='mono'>tv2bornholm.dk</td><td class='mono'>117/139</td><td>15.8%</td></tr><tr><td>Cartoonito HD FI [Multi-Audio]</td><td class='mono'>cartoonito.dk</td><td class='mono'>113/317</td><td>64.4%</td></tr><tr><td>DK 4 FHD DK</td><td class='mono'>dk4.dk</td><td class='mono'>86/102</td><td>15.7%</td></tr><tr><td>TV2 Kosmopol FHD DK</td><td class='mono'>tv2lorry.dk</td><td class='mono'>76/115</td><td>33.9%</td></tr><tr><td>TV2 Sport X DK</td><td class='mono'>tv2sportx.dk</td><td class='mono'>75/75</td><td>0.0%</td></tr><tr><td>TV2 Fyn HD DK</td><td class='mono'>tv2fyn.dk</td><td class='mono'>70/84</td><td>16.7%</td></tr><tr><td>Sport Live HD DK</td><td class='mono'>sportlive.dk</td><td class='mono'>65/66</td><td>1.5%</td></tr><tr><td>CGTN Documentary HD FI</td><td class='mono'>cgtn-documentary.au</td><td class='mono'>64/72</td><td>11.1%</td></tr></tbody></table>
+      </div>
+      <div class="card">
+        <h2>Channel Health Score (top 15)</h2>
+        <table class='data-table'><thead><tr><th>Kanal</th><th>ID</th><th>Artwork</th><th>Unikke titler</th><th>Health</th></tr></thead><tbody><tr><td>TV2 Sport HD DK</td><td class='mono'>tv2sport.dk</td><td class='mono'>410/1003</td><td>340</td><td><span class='score-pill score-bad'>40.9%</span></td></tr><tr><td>Cartoonito HD FI [Multi-Audio]</td><td class='mono'>cartoonito.dk</td><td class='mono'>204/317</td><td>11</td><td><span class='score-pill score-mid'>64.4%</span></td></tr><tr><td>TV3 Puls FHD DK</td><td class='mono'>tv3puls.dk</td><td class='mono'>260/289</td><td>134</td><td><span class='score-pill score-mid'>90.0%</span></td></tr><tr><td>National Geographic Wild FHD DK</td><td class='mono'>natgeowild.dk</td><td class='mono'>157/274</td><td>70</td><td><span class='score-pill score-bad'>57.3%</span></td></tr><tr><td>Cartoon Network HD DK</td><td class='mono'>cartoonnetwork.dk</td><td class='mono'>207/226</td><td>17</td><td><span class='score-pill score-good'>91.6%</span></td></tr><tr><td>Nick Jr HD DK</td><td class='mono'>nickjr.dk</td><td class='mono'>194/194</td><td>11</td><td><span class='score-pill score-good'>100.0%</span></td></tr><tr><td>DR Ramasjang FHD DK</td><td class='mono'>drramasjang.dk</td><td class='mono'>112/168</td><td>113</td><td><span class='score-pill score-mid'>66.7%</span></td></tr><tr><td>Disney Channel HD DK</td><td class='mono'>disneychannel.dk</td><td class='mono'>122/145</td><td>17</td><td><span class='score-pill score-mid'>84.1%</span></td></tr><tr><td>TV2 Bornholm HD DK</td><td class='mono'>tv2bornholm.dk</td><td class='mono'>22/139</td><td>58</td><td><span class='score-pill score-bad'>15.8%</span></td></tr><tr><td>Nickelodeon FHD DK</td><td class='mono'>nickelodeon.dk</td><td class='mono'>132/135</td><td>16</td><td><span class='score-pill score-good'>97.8%</span></td></tr><tr><td>NickToons SE</td><td class='mono'>nicktoons.se</td><td class='mono'>128/133</td><td>24</td><td><span class='score-pill score-good'>96.2%</span></td></tr><tr><td>Kanal 5 DK</td><td class='mono'>kanal5.dk</td><td class='mono'>116/116</td><td>22</td><td><span class='score-pill score-good'>100.0%</span></td></tr><tr><td>TV2 Kosmopol FHD DK</td><td class='mono'>tv2lorry.dk</td><td class='mono'>39/115</td><td>50</td><td><span class='score-pill score-bad'>33.9%</span></td></tr><tr><td>6 Eren DK</td><td class='mono'>6eren.dk</td><td class='mono'>112/113</td><td>19</td><td><span class='score-pill score-good'>99.1%</span></td></tr><tr><td>Kanal 4 DK</td><td class='mono'>kanal4.dk</td><td class='mono'>99/106</td><td>34</td><td><span class='score-pill score-good'>93.4%</span></td></tr></tbody></table>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="card">
+        <h2>Match report</h2>
+        <p class="muted">
+          CSV-fil med alle M3U → EPG matches samt placeholders (genereret af CORE-scriptet):
+        </p>
+        <p class="mono">C:\EPGAssets\output\dk_match_report_v4_0.csv</p>
+      </div>
+    </div>
+
+    <div class="footer-note">
+      <span>Generated by <span class="mono">GoldEPG v4.0 (CORE + ARTWORK)</span></span>
+      <span class="muted">HTML-rapporten er kun til visning – selve EPG-filen er <span class="mono">GoldIPTVX.xml</span>.</span>
+    </div>
+
+  </div>
 </body>
 </html>
