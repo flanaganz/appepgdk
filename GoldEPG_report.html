@@ -1,415 +1,88 @@
+
 <!DOCTYPE html>
 <html lang="da">
 <head>
-  <meta charset="utf-8">
-  <title>GoldEPG Rapport v4.0</title>
-  <style>
-    :root {
-      --bg-main: #0f111a;
-      --bg-card: #171927;
-      --bg-card-soft: #1f2233;
-      --border-subtle: #252842;
-      --accent: #5df28c;
-      --accent-soft: rgba(93, 242, 140, 0.15);
-      --accent-2: #69a7ff;
-      --accent-2-soft: rgba(105, 167, 255, 0.15);
-      --warn: #ffc442;
-      --warn-soft: rgba(255, 196, 66, 0.15);
-      --danger: #ff5e5e;
-      --danger-soft: rgba(255, 94, 94, 0.18);
-      --text-main: #e5e7f1;
-      --text-muted: #8b8fa6;
-      --mono: "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-      --sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      --radius-lg: 14px;
-      --radius-pill: 999px;
-      --shadow-soft: 0 18px 45px rgba(0, 0, 0, 0.50);
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      padding: 24px;
-      font-family: var(--sans);
-      background: radial-gradient(circle at top, #1a1d2b 0, #090a0f 55%, #05060a 100%);
-      color: var(--text-main);
-    }
-
-    .page {
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
-    .header {
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      gap: 16px;
-      margin-bottom: 24px;
-    }
-
-    .title-block h1 {
-      margin: 0 0 4px 0;
-      font-size: 26px;
-      letter-spacing: 0.03em;
-    }
-
-    .title-block p {
-      margin: 0;
-      color: var(--text-muted);
-      font-size: 13px;
-    }
-
-    .chip-group {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-
-    .chip {
-      padding: 6px 10px;
-      border-radius: var(--radius-pill);
-      background-color: rgba(255,255,255,0.03);
-      border: 1px solid rgba(255,255,255,0.05);
-      font-size: 11px;
-      color: var(--text-muted);
-    }
-
-    .chip strong {
-      color: var(--text-main);
-      margin-right: 4px;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 16px;
-      margin-bottom: 20px;
-    }
-
-    .section {
-      margin-bottom: 24px;
-    }
-
-    .section h2 {
-      margin: 0 0 10px 0;
-      font-size: 18px;
-      letter-spacing: 0.03em;
-    }
-
-    .card {
-      background: linear-gradient(145deg, rgba(23,25,39,0.98), rgba(32,36,60,0.98));
-      border-radius: var(--radius-lg);
-      border: 1px solid var(--border-subtle);
-      padding: 14px 16px;
-      box-shadow: var(--shadow-soft);
-    }
-
-    .card-soft {
-      background: radial-gradient(circle at top left, rgba(105,167,255,0.12), rgba(23,25,39,0.96));
-      border-radius: var(--radius-lg);
-      border: 1px solid rgba(105,167,255,0.25);
-      padding: 14px 16px;
-      box-shadow: var(--shadow-soft);
-    }
-
-    .card-danger {
-      background: radial-gradient(circle at top, var(--danger-soft), #1b0f16);
-      border: 1px solid rgba(255,94,94,0.65);
-      border-radius: var(--radius-lg);
-      padding: 14px 16px;
-      box-shadow: var(--shadow-soft);
-    }
-
-    .card h3 {
-      margin: 0 0 8px 0;
-      font-size: 15px;
-    }
-
-    .card p, .card ul {
-      margin: 4px 0;
-      font-size: 13px;
-      color: var(--text-muted);
-    }
-
-    .metrics-row {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-    }
-
-    .metric {
-      margin-bottom: 4px;
-    }
-
-    .metric-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-      font-size: 12px;
-      margin-bottom: 3px;
-    }
-
-    .metric-label {
-      color: var(--text-muted);
-    }
-
-    .metric-value {
-      font-variant-numeric: tabular-nums;
-      font-weight: 600;
-      color: var(--accent);
-    }
-
-    .bar {
-      position: relative;
-      width: 100%;
-      height: 8px;
-      border-radius: 999px;
-      background: linear-gradient(90deg, rgba(255,255,255,0.03), rgba(255,255,255,0.02));
-      overflow: hidden;
-      border: 1px solid rgba(255,255,255,0.05);
-    }
-
-    .bar-fill {
-      height: 100%;
-      border-radius: inherit;
-      background: linear-gradient(90deg, var(--accent), var(--accent-2));
-      box-shadow: 0 0 12px rgba(93,242,140,0.7);
-    }
-
-    .badge {
-      display: inline-flex;
-      align-items: center;
-      padding: 4px 9px;
-      border-radius: var(--radius-pill);
-      font-size: 11px;
-      font-weight: 600;
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-    }
-
-    .badge-success {
-      background-color: rgba(93, 242, 140, 0.16);
-      color: var(--accent);
-      border: 1px solid rgba(93, 242, 140, 0.4);
-    }
-
-    .badge-warn {
-      background-color: var(--warn-soft);
-      color: var(--warn);
-      border: 1px solid rgba(255, 196, 66, 0.6);
-    }
-
-    .badge-danger {
-      background-color: var(--danger-soft);
-      color: var(--danger);
-      border: 1px solid rgba(255, 94, 94, 0.7);
-    }
-
-    .badge-info {
-      background-color: var(--accent-2-soft);
-      color: var(--accent-2);
-      border: 1px solid rgba(105,167,255,0.7);
-    }
-
-    .muted {
-      color: var(--text-muted);
-      font-size: 13px;
-    }
-
-    .mono {
-      font-family: var(--mono);
-      font-size: 11px;
-    }
-
-    .data-table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 6px;
-      font-size: 12px;
-    }
-
-    .data-table thead {
-      background-color: rgba(255,255,255,0.03);
-    }
-
-    .data-table th,
-    .data-table td {
-      border-bottom: 1px solid rgba(255,255,255,0.04);
-      padding: 4px 6px;
-      text-align: left;
-    }
-
-    .data-table tbody tr:nth-child(odd) {
-      background-color: rgba(255,255,255,0.01);
-    }
-
-    .pill-list {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-      margin: 6px 0 2px 0;
-    }
-
-    .pill {
-      padding: 4px 8px;
-      border-radius: var(--radius-pill);
-      background-color: rgba(255,255,255,0.03);
-      border: 1px solid rgba(255,255,255,0.05);
-      font-size: 11px;
-      color: var(--text-muted);
-    }
-
-    .score-pill {
-      display: inline-flex;
-      align-items: center;
-      padding: 2px 8px;
-      border-radius: var(--radius-pill);
-      font-size: 11px;
-      font-variant-numeric: tabular-nums;
-    }
-
-    .score-good {
-      background-color: rgba(93,242,140,0.16);
-      color: var(--accent);
-      border: 1px solid rgba(93,242,140,0.5);
-    }
-
-    .score-mid {
-      background-color: rgba(255,196,66,0.16);
-      color: var(--warn);
-      border: 1px solid rgba(255,196,66,0.5);
-    }
-
-    .score-bad {
-      background-color: rgba(255,94,94,0.16);
-      color: var(--danger);
-      border: 1px solid rgba(255,94,94,0.6);
-    }
-
-    .footer-note {
-      margin-top: 20px;
-      font-size: 11px;
-      color: var(--text-muted);
-      display: flex;
-      justify-content: space-between;
-      gap: 10px;
-      flex-wrap: wrap;
-    }
-
-    @media (max-width: 720px) {
-      body {
-        padding: 16px;
-      }
-      .header {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-    }
-  </style>
+<meta charset="utf-8">
+<title>GoldEPG v4.3 rapport</title>
+<style>
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #0b1120;
+  color: #e5e7eb;
+  padding: 20px;
+}
+h1, h2, h3 {
+  color: #facc15;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+  background: #020617;
+}
+th, td {
+  border: 1px solid #1f2937;
+  padding: 6px 8px;
+  font-size: 13px;
+}
+th {
+  background: #111827;
+}
+tr:nth-child(even) td {
+  background: #020617;
+}
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  background: #1d4ed8;
+  font-size: 11px;
+}
+</style>
 </head>
 <body>
-  <div class="page">
-    <div class="header">
-      <div class="title-block">
-        <h1>GoldEPG Rapport v4.0</h1>
-        <p>Kørt: <span class="mono">2025-11-22 07:54:40</span></p>
-      </div>
-      <div class="chip-group">
-        <div class="chip"><strong>Programmer</strong> 13736</div>
-        <div class="chip"><strong>Backdrops</strong> 8950</div>
-        <div class="chip"><strong>Beskrivelser</strong> 13584</div>
-        <div class="chip"><strong>Placeholders</strong> 63</div>
-      </div>
-    </div>
+<h1>GoldEPG v4.3 Rapport</h1>
+<p class="badge">CORE: v4.3 · ARTWORK: v4.3</p>
 
-    <div class="section grid">
-      <div class="card">
-        <h3>Overblik</h3>
-        <div class="metrics-row">
-          
-        <div class="metric">
-          <div class="metric-header">
-            <span class="metric-label">Backdrop/icon dækning</span>
-            <span class="metric-value">65.2%</span>
-          </div>
-          <div class="bar">
-            <div class="bar-fill" style="width:65.2%"></div>
-          </div>
-        </div>
-        
-          
-        <div class="metric">
-          <div class="metric-header">
-            <span class="metric-label">Beskrivelses-dækning</span>
-            <span class="metric-value">98.9%</span>
-          </div>
-          <div class="bar">
-            <div class="bar-fill" style="width:98.9%"></div>
-          </div>
-        </div>
-        
-        </div>
-        <p class="muted">
-          Dækning beregnes ud fra antal programmer med hhv. backdrop/icon og beskrivelse
-          i forhold til total antal programmer i GoldEPG.
-        </p>
-      </div>
+<h2>Overblik</h2>
+<ul>
+  <li>Total programmer: <b>13669</b></li>
+  <li>Tilføjede icons/backdrops: <b>2484</b></li>
+  <li>GitHub hits: <b>2334</b></li>
+  <li>TMDb cache hits: <b>0</b></li>
+  <li>TMDb live hits: <b>150</b></li>
+</ul>
 
-      <div class="card">
-        <h3>Backdrop-kilder</h3>
-        <ul>
-          <li>GitHub backdrops: <b>2710</b></li>
-          <li>TMDb cache fallback: <b>6182</b></li>
-          <li>TMDb live fallback hits: <b>58</b></li>
-          <li>Fjernede TMDb-ikoner fra source: <b>0</b></li>
-        </ul>
-        <div class="pill-list">
-          <span class="pill">GitHub → primær kilde</span>
-          <span class="pill">TMDb cache → sekundær</span>
-          <span class="pill">TMDb live → sidste fallback</span>
-        </div>
-      </div>
 
-      <div class="card-soft">
-        <h3>EPG Anomaly Detector <span class="badge badge-success">Ingen ændringer</span></h3>
-        <p>Ingen ændringer i kanalliste ift. sidste baseline.</p>
-        <p class="muted">
-          Anomalier opstår typisk når EPG-kilder ændrer kanalnavne, kanal-liste eller re-mapper IDs.
-          Brug disse data til at holde øje med "mærkeligt shit" i EPG-leverandørerne.
-        </p>
-      </div>
-    </div>
 
-    <div class="section grid">
-      <div class="card">
-        <h2>Top 10 kanaler uden artwork</h2>
-        <table class='data-table'><thead><tr><th>Kanal</th><th>ID</th><th>Mangler (antal/total)</th><th>Dækning</th></tr></thead><tbody><tr><td>TV2 Sport HD DK</td><td class='mono'>tv2sport.dk</td><td class='mono'>714/1306</td><td>45.3%</td></tr><tr><td>TV2 Sport HD DK</td><td class='mono'>tv2sport</td><td class='mono'>714/1306</td><td>45.3%</td></tr><tr><td>National Geographic Wild FHD DK</td><td class='mono'>natgeowild.dk</td><td class='mono'>141/347</td><td>59.4%</td></tr><tr><td>National Geographic Wild FHD DK</td><td class='mono'>nationalgeographicwild</td><td class='mono'>141/347</td><td>59.4%</td></tr><tr><td>TV2 Bornholm HD DK</td><td class='mono'>tv2bornholm.dk</td><td class='mono'>119/131</td><td>9.2%</td></tr><tr><td>TV2 Bornholm HD DK</td><td class='mono'>tv2bornholm</td><td class='mono'>119/131</td><td>9.2%</td></tr><tr><td>Cartoonito HD FI [Multi-Audio]</td><td class='mono'>cartoonito.dk</td><td class='mono'>113/316</td><td>64.2%</td></tr><tr><td>Cartoonito HD FI [Multi-Audio]</td><td class='mono'>cartoonito</td><td class='mono'>113/316</td><td>64.2%</td></tr><tr><td>DK 4 FHD DK</td><td class='mono'>dk4.dk</td><td class='mono'>84/91</td><td>7.7%</td></tr><tr><td>DK 4 FHD DK</td><td class='mono'>4</td><td class='mono'>84/91</td><td>7.7%</td></tr></tbody></table>
-      </div>
-      <div class="card">
-        <h2>Channel Health Score (top 15)</h2>
-        <table class='data-table'><thead><tr><th>Kanal</th><th>ID</th><th>Artwork</th><th>Unikke titler</th><th>Health</th></tr></thead><tbody><tr><td>TV2 Sport HD DK</td><td class='mono'>tv2sport.dk</td><td class='mono'>592/1306</td><td>371</td><td><span class='score-pill score-bad'>45.3%</span></td></tr><tr><td>TV2 Sport HD DK</td><td class='mono'>tv2sport</td><td class='mono'>592/1306</td><td>371</td><td><span class='score-pill score-bad'>45.3%</span></td></tr><tr><td>TV3 Puls FHD DK</td><td class='mono'>tv3puls.dk</td><td class='mono'>374/416</td><td>162</td><td><span class='score-pill score-mid'>89.9%</span></td></tr><tr><td>TV3 Puls FHD DK</td><td class='mono'>tv3puls</td><td class='mono'>374/416</td><td>162</td><td><span class='score-pill score-mid'>89.9%</span></td></tr><tr><td>National Geographic Wild FHD DK</td><td class='mono'>natgeowild.dk</td><td class='mono'>206/347</td><td>79</td><td><span class='score-pill score-bad'>59.4%</span></td></tr><tr><td>National Geographic Wild FHD DK</td><td class='mono'>nationalgeographicwild</td><td class='mono'>206/347</td><td>79</td><td><span class='score-pill score-bad'>59.4%</span></td></tr><tr><td>Cartoonito HD FI [Multi-Audio]</td><td class='mono'>cartoonito.dk</td><td class='mono'>203/316</td><td>11</td><td><span class='score-pill score-mid'>64.2%</span></td></tr><tr><td>Cartoonito HD FI [Multi-Audio]</td><td class='mono'>cartoonito</td><td class='mono'>203/316</td><td>11</td><td><span class='score-pill score-mid'>64.2%</span></td></tr><tr><td>Cartoon Network HD DK</td><td class='mono'>cartoonnetwork.dk</td><td class='mono'>214/214</td><td>15</td><td><span class='score-pill score-good'>100.0%</span></td></tr><tr><td>Cartoon Network HD DK</td><td class='mono'>cartoonnetwork</td><td class='mono'>214/214</td><td>15</td><td><span class='score-pill score-good'>100.0%</span></td></tr><tr><td>Nick Jr HD DK</td><td class='mono'>nickjr.dk</td><td class='mono'>189/189</td><td>11</td><td><span class='score-pill score-good'>100.0%</span></td></tr><tr><td>Nick Jr HD DK</td><td class='mono'>nickjr</td><td class='mono'>189/189</td><td>11</td><td><span class='score-pill score-good'>100.0%</span></td></tr><tr><td>DR Ramasjang FHD DK</td><td class='mono'>drramasjang.dk</td><td class='mono'>93/146</td><td>97</td><td><span class='score-pill score-mid'>63.7%</span></td></tr><tr><td>DR Ramasjang FHD DK</td><td class='mono'>drramasjang</td><td class='mono'>93/146</td><td>97</td><td><span class='score-pill score-mid'>63.7%</span></td></tr><tr><td>Kanal 5 DK</td><td class='mono'>kanal5.dk</td><td class='mono'>140/140</td><td>27</td><td><span class='score-pill score-good'>100.0%</span></td></tr></tbody></table>
-      </div>
-    </div>
-<div class='section'><h2>Detaljeret EPG-analyse</h2><div class='grid'><div class='card'><h3>Tilføjede kanaler (sample)</h3><p class='muted'>(Ingen)</p></div><div class='card'><h3>Fjernede kanaler (sample)</h3><p class='muted'>(Ingen)</p></div><div class='card'><h3>Ændrede kanaler (navne)</h3><p class='muted'>(Ingen ændrede navne)</p></div></div></div>
-    <div class="section">
-      <div class="card">
-        <h2>Match report</h2>
-        <p class="muted">
-          CSV-fil med alle M3U → EPG matches samt placeholders (genereret af CORE-scriptet):
-        </p>
-        <p class="mono">C:\EPGAssets\output\dk_match_report_v4_0.csv</p>
-      </div>
-    </div>
+<h2>VIP Channel Health (kun high-prio kanaler)</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Kanal</th>
+      <th style="text-align:right">Programmer</th>
+      <th style="text-align:right">Artwork %</th>
+      <th style="text-align:right">Beskrivelse %</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>6 Eren DK</td><td style='text-align:right'>120</td><td style='text-align:right'>93.3%</td><td style='text-align:right'>100.0%</td></tr><tr><td>6 Eren DK</td><td style='text-align:right'>120</td><td style='text-align:right'>93.3%</td><td style='text-align:right'>100.0%</td></tr><tr><td>Animal Planet HD</td><td style='text-align:right'>0</td><td style='text-align:right'>0.0%</td><td style='text-align:right'>0.0%</td></tr><tr><td>Animal Planet HD</td><td style='text-align:right'>0</td><td style='text-align:right'>0.0%</td><td style='text-align:right'>0.0%</td></tr><tr><td>DR 1 FHD DK</td><td style='text-align:right'>64</td><td style='text-align:right'>17.2%</td><td style='text-align:right'>100.0%</td></tr><tr><td>DR 1 FHD DK</td><td style='text-align:right'>64</td><td style='text-align:right'>17.2%</td><td style='text-align:right'>100.0%</td></tr><tr><td>DR 2 FHD DK</td><td style='text-align:right'>52</td><td style='text-align:right'>21.2%</td><td style='text-align:right'>100.0%</td></tr><tr><td>DR 2 FHD DK</td><td style='text-align:right'>52</td><td style='text-align:right'>21.2%</td><td style='text-align:right'>100.0%</td></tr><tr><td>DR Ramasjang FHD DK</td><td style='text-align:right'>214</td><td style='text-align:right'>7.0%</td><td style='text-align:right'>97.7%</td></tr><tr><td>DR Ramasjang FHD DK</td><td style='text-align:right'>214</td><td style='text-align:right'>7.0%</td><td style='text-align:right'>97.7%</td></tr><tr><td>Kanal 4 DK</td><td style='text-align:right'>117</td><td style='text-align:right'>0.0%</td><td style='text-align:right'>100.0%</td></tr><tr><td>Kanal 4 DK</td><td style='text-align:right'>117</td><td style='text-align:right'>0.0%</td><td style='text-align:right'>100.0%</td></tr><tr><td>Kanal 5 DK</td><td style='text-align:right'>138</td><td style='text-align:right'>30.4%</td><td style='text-align:right'>100.0%</td></tr><tr><td>Kanal 5 DK</td><td style='text-align:right'>138</td><td style='text-align:right'>30.4%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV2 Bornholm HD DK</td><td style='text-align:right'>129</td><td style='text-align:right'>0.0%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV2 Bornholm HD DK</td><td style='text-align:right'>129</td><td style='text-align:right'>0.0%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV2 Charlie FHD DK</td><td style='text-align:right'>55</td><td style='text-align:right'>0.0%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV2 Charlie FHD DK</td><td style='text-align:right'>55</td><td style='text-align:right'>0.0%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV2 Echo FHD DK</td><td style='text-align:right'>85</td><td style='text-align:right'>11.8%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV2 Echo FHD DK</td><td style='text-align:right'>85</td><td style='text-align:right'>11.8%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV2 Fri FHD DK</td><td style='text-align:right'>61</td><td style='text-align:right'>6.6%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV2 Fri FHD DK</td><td style='text-align:right'>61</td><td style='text-align:right'>6.6%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV2 Fyn HD DK</td><td style='text-align:right'>69</td><td style='text-align:right'>0.0%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV2 Fyn HD DK</td><td style='text-align:right'>69</td><td style='text-align:right'>0.0%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV2 HD DK</td><td style='text-align:right'>66</td><td style='text-align:right'>4.5%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV2 HD DK</td><td style='text-align:right'>66</td><td style='text-align:right'>4.5%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV2 Kosmopol FHD DK</td><td style='text-align:right'>95</td><td style='text-align:right'>0.0%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV2 Kosmopol FHD DK</td><td style='text-align:right'>95</td><td style='text-align:right'>0.0%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV2 Midt-Vest DK</td><td style='text-align:right'>62</td><td style='text-align:right'>0.0%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV2 Midt-Vest DK</td><td style='text-align:right'>62</td><td style='text-align:right'>0.0%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV2 Midt-Vest DK</td><td style='text-align:right'>62</td><td style='text-align:right'>0.0%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV2 News HD DK</td><td style='text-align:right'>38</td><td style='text-align:right'>5.3%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV2 News HD DK</td><td style='text-align:right'>38</td><td style='text-align:right'>5.3%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV2 Nord Salto HD DK</td><td style='text-align:right'>33</td><td style='text-align:right'>0.0%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV2 Nord Salto HD DK</td><td style='text-align:right'>33</td><td style='text-align:right'>0.0%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV2 Nord Salto HD DK</td><td style='text-align:right'>33</td><td style='text-align:right'>0.0%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV2 Play 1 HD DK</td><td style='text-align:right'>1</td><td style='text-align:right'>0.0%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV2 Play 2 HD DK</td><td style='text-align:right'>1</td><td style='text-align:right'>0.0%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV2 Play 3 FHD DK</td><td style='text-align:right'>1</td><td style='text-align:right'>0.0%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV2 Sport HD DK</td><td style='text-align:right'>1250</td><td style='text-align:right'>3.6%</td><td style='text-align:right'>97.9%</td></tr><tr><td>TV2 Sport HD DK</td><td style='text-align:right'>1250</td><td style='text-align:right'>3.6%</td><td style='text-align:right'>97.9%</td></tr><tr><td>TV2 Sport X DK</td><td style='text-align:right'>64</td><td style='text-align:right'>0.0%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV2 Sport X DK</td><td style='text-align:right'>64</td><td style='text-align:right'>0.0%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV2 Syd HD DK</td><td style='text-align:right'>0</td><td style='text-align:right'>0.0%</td><td style='text-align:right'>0.0%</td></tr><tr><td>TV2 Syd HD DK</td><td style='text-align:right'>0</td><td style='text-align:right'>0.0%</td><td style='text-align:right'>0.0%</td></tr><tr><td>TV2 Øst HD DK</td><td style='text-align:right'>2</td><td style='text-align:right'>0.0%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV2 Østjylland HD DK</td><td style='text-align:right'>18</td><td style='text-align:right'>11.1%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV2 Østjylland HD DK</td><td style='text-align:right'>18</td><td style='text-align:right'>11.1%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV3 DK</td><td style='text-align:right'>42</td><td style='text-align:right'>4.8%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV3 DK</td><td style='text-align:right'>42</td><td style='text-align:right'>4.8%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV3 Max HD DK</td><td style='text-align:right'>37</td><td style='text-align:right'>10.8%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV3 Max HD DK</td><td style='text-align:right'>37</td><td style='text-align:right'>10.8%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV3 Puls FHD DK</td><td style='text-align:right'>393</td><td style='text-align:right'>9.9%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV3 Puls FHD DK</td><td style='text-align:right'>393</td><td style='text-align:right'>9.9%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV3 Sport FHD DK</td><td style='text-align:right'>36</td><td style='text-align:right'>19.4%</td><td style='text-align:right'>100.0%</td></tr><tr><td>TV3 Sport FHD DK</td><td style='text-align:right'>36</td><td style='text-align:right'>19.4%</td><td style='text-align:right'>100.0%</td></tr><tr><td>V Sport Ultra 4K DK [Multi-Audio]</td><td style='text-align:right'>36</td><td style='text-align:right'>38.9%</td><td style='text-align:right'>100.0%</td></tr><tr><td>V Sport Ultra 4K DK [Multi-Audio]</td><td style='text-align:right'>36</td><td style='text-align:right'>38.9%</td><td style='text-align:right'>100.0%</td></tr>
+  </tbody>
+</table>
 
-    <div class="footer-note">
-      <span>Generated by <span class="mono">GoldEPG v4.0 (CORE + ARTWORK)</span></span>
-      <span class="muted">HTML-rapporten er kun til visning – selve EPG-filen er <span class="mono">GoldIPTVX.xml</span>.</span>
-    </div>
+<h2>Top 10 VIP-kanaler med manglende artwork</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Kanal</th>
+      <th style="text-align:right">Manglende</th>
+      <th style="text-align:right">Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>TV2 Sport HD DK</td><td style='text-align:right'>1205</td><td style='text-align:right'>1250</td></tr><tr><td>TV2 Sport HD DK</td><td style='text-align:right'>1205</td><td style='text-align:right'>1250</td></tr><tr><td>TV3 Puls FHD DK</td><td style='text-align:right'>354</td><td style='text-align:right'>393</td></tr><tr><td>TV3 Puls FHD DK</td><td style='text-align:right'>354</td><td style='text-align:right'>393</td></tr><tr><td>DR Ramasjang FHD DK</td><td style='text-align:right'>199</td><td style='text-align:right'>214</td></tr><tr><td>DR Ramasjang FHD DK</td><td style='text-align:right'>199</td><td style='text-align:right'>214</td></tr><tr><td>TV2 Bornholm HD DK</td><td style='text-align:right'>129</td><td style='text-align:right'>129</td></tr><tr><td>TV2 Bornholm HD DK</td><td style='text-align:right'>129</td><td style='text-align:right'>129</td></tr><tr><td>Kanal 4 DK</td><td style='text-align:right'>117</td><td style='text-align:right'>117</td></tr><tr><td>Kanal 4 DK</td><td style='text-align:right'>117</td><td style='text-align:right'>117</td></tr>
+  </tbody>
+</table>
 
-  </div>
 </body>
 </html>
