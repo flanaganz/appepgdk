@@ -1,0 +1,230 @@
+m3u_name,provider_id,alias_id,epg_id,epg_names,strategy,placeholder,priority
+-= Denmark =-,9675,,,,no match,yes,NORMAL
+N1 Info & Updates DK,61239,,,,no match,yes,LOW
+DR 1 DK,23447,dr1,dr1.dk,DR 1 FHD DK,norm match (multi),,HIGH
+DR 1 HD DK,8192,dr1,dr1.dk,DR 1 FHD DK,norm match (multi),,HIGH
+DR 1 FHD DK,23504,dr1,dr1.dk,DR 1 FHD DK,norm match (multi),,HIGH
+DR 2 DK,37439,dr2,dr2.dk,DR 2 FHD DK,norm match (multi),,HIGH
+DR 2 HD DK,8193,dr2,dr2.dk,DR 2 FHD DK,norm match (multi),,HIGH
+DR 2 FHD DK,296871,dr2,dr2.dk,DR 2 FHD DK,norm match (multi),,HIGH
+DR Ramasjang HD DK,8194,drramasjang,drramasjang.dk,DR Ramasjang FHD DK,norm match (multi),,HIGH
+DR Ramasjang FHD DK,21229,drramasjang,drramasjang.dk,DR Ramasjang FHD DK,norm match (multi),,HIGH
+Play 1 HD DK,772173,,,,no match,yes,NORMAL
+Play 2 HD DK,772174,,,,no match,yes,NORMAL
+Play 3 HD DK,772175,,,,no match,yes,NORMAL
+TV2 HD DK,23446,tv2,tv2.dk,TV2 HD DK,norm match (multi),,LOW
+TV2 FHD DK,11668,tv2,tv2.dk,TV2 HD DK,norm match (multi),,LOW
+TV2 Echo DK,86909,tv2echo,tv2zulu.dk,TV2 Echo FHD DK,norm match (multi),,HIGH
+TV2 Echo HD DK,11672,tv2echo,tv2zulu.dk,TV2 Echo FHD DK,norm match (multi),,HIGH
+TV2 Echo FHD DK,946820,tv2echo,tv2zulu.dk,TV2 Echo FHD DK,norm match (multi),,HIGH
+TV2 Fri DK,86904,tv2fri,tv2fri.dk,TV2 Fri FHD DK,norm match (multi),,HIGH
+TV2 Fri HD DK,11670,tv2fri,tv2fri.dk,TV2 Fri FHD DK,norm match (multi),,HIGH
+TV2 Fri FHD DK,946818,tv2fri,tv2fri.dk,TV2 Fri FHD DK,norm match (multi),,HIGH
+TV2 Charlie DK,11671,tv2charlie,tv2charlie.dk,TV2 Charlie FHD DK,norm match (multi),,HIGH
+TV2 Charlie HD DK,51601,tv2charlie,tv2charlie.dk,TV2 Charlie FHD DK,norm match (multi),,HIGH
+TV2 Charlie FHD DK,946819,tv2charlie,tv2charlie.dk,TV2 Charlie FHD DK,norm match (multi),,HIGH
+TV2 News DK,43367,tv2news,tv2news.dk,TV2 News HD DK,norm match (multi),,HIGH
+TV2 News HD DK,854606,tv2news,tv2news.dk,TV2 News HD DK,norm match (multi),,HIGH
+TV2 News FHD DK,8205,tv2news,tv2news.dk,TV2 News HD DK,norm match (multi),,HIGH
+TV2 Sport DK,8175,tv2sport,tv2sport.dk,TV2 Sport HD DK,norm match (multi),,HIGH
+TV2 Sport HD DK,904904,tv2sport,tv2sport.dk,TV2 Sport HD DK,norm match (multi),,HIGH
+TV2 Sport FHD DK,19536,tv2sport,tv2sport.dk,TV2 Sport HD DK,norm match (multi),,HIGH
+TV2 Sport X DK,86894,tv2sportx,tv2sportx.dk,TV2 Sport X DK,norm match (multi),,HIGH
+TV2 Sport X HD DK,50294,tv2sportx,tv2sportx.dk,TV2 Sport X DK,norm match (multi),,HIGH
+TV2 Nord HD DK,18447,tv2nord,tv2nordsalto.dk,TV2 Nord Salto HD DK,norm match (dk preferred),,LOW
+TV2 Fyn HD DK,18452,tv2fyn,tv2fyn.dk,TV2 Fyn HD DK,norm match (dk preferred),,LOW
+TV2 Bornholm HD DK,904900,tv2bornholm,tv2bornholm.dk,TV2 Bornholm HD DK,norm match (multi),,LOW
+TV2 Bornholm FHD DK,18450,tv2bornholm,tv2bornholm.dk,TV2 Bornholm HD DK,norm match (multi),,LOW
+TV2 Syd HD DK,72574,tv2syd,tv2sydplus.dk,TV2 Syd HD DK,norm match (dk preferred),,LOW
+TV2 Øst DK,86911,,,,no match,yes,LOW
+TV2 Øst HD DK,47846,,,,no match,yes,LOW
+TV2 Østjylland DK,18442,tv2østjylland,tv2ostjylland.dk,TV2 Østjylland HD DK,norm match (multi),,LOW
+TV2 Østjylland HD DK,904902,tv2østjylland,tv2ostjylland.dk,TV2 Østjylland HD DK,norm match (multi),,LOW
+TV2 Kosmopol HD DK,673395,tv2kosmopol,tv2lorry.dk,TV2 Kosmopol FHD DK,norm match (multi),,NORMAL
+TV2 Kosmopol FHD DK,1076324,tv2kosmopol,tv2lorry.dk,TV2 Kosmopol FHD DK,norm match (multi),,NORMAL
+TV2 Nord Salto HD DK,904903,tv2nordsalto,tv2nordsalto.dk,TV2 Nord Salto HD DK,norm match (dk preferred),,LOW
+TV2 Midt-Vest DK,1205958,tv2midtvest,tv2midtvest.dk,TV2 Midt-Vest DK,norm match (dk preferred),,LOW
+TV2 Play 1 HD DK,193114,,,,no match,yes,NORMAL
+TV2 Play 2 HD DK,193115,,,,no match,yes,NORMAL
+TV2 Play 3 FHD DK,193116,,,,no match,yes,NORMAL
+TV Midtvest HD DK,19771,tvmidtvest,tv2midtvest.dk,TV2 Midt-Vest DK,norm match (dk preferred),,LOW
+Folketinget HD DK,1238627,folketinget,folketinget.dk,Folketinget HD DK,norm match (multi),,LOW
+Folketinget FHD DK,341484,folketinget,folketinget.dk,Folketinget HD DK,norm match (multi),,LOW
+TV3 DK,295213,tv3,tv3.dk,TV3 DK,norm match (multi),,HIGH
+TV3 HD DK,8207,tv3,tv3.dk,TV3 DK,norm match (multi),,HIGH
+TV3 FHD DK,20565,tv3,tv3.dk,TV3 DK,norm match (multi),,HIGH
+TV3+ DK,83453,tv3,tv3.dk,TV3 DK,norm match (multi),,HIGH
+TV3+ HD DK,11673,tv3,tv3.dk,TV3 DK,norm match (multi),,HIGH
+TV3+ FHD DK,19770,tv3,tv3.dk,TV3 DK,norm match (multi),,HIGH
+TV3 Puls DK,21226,tv3puls,tv3puls.dk,TV3 Puls FHD DK,norm match (multi),,HIGH
+TV3 Puls HD DK,8174,tv3puls,tv3puls.dk,TV3 Puls FHD DK,norm match (multi),,HIGH
+TV3 Puls FHD DK,51803,tv3puls,tv3puls.dk,TV3 Puls FHD DK,norm match (multi),,HIGH
+TV3 Sport DK,35184,tv3sport,tv3sport.dk,TV3 Sport FHD DK,norm match (multi),,HIGH
+TV3 Sport HD DK,45534,tv3sport,tv3sport.dk,TV3 Sport FHD DK,norm match (multi),,HIGH
+TV3 Sport FHD DK,51802,tv3sport,tv3sport.dk,TV3 Sport FHD DK,norm match (multi),,HIGH
+TV3 Max DK,35185,tv3max,tv3max.dk,TV3 Max HD DK,norm match (multi),,HIGH
+TV3 Max HD DK,1238623,tv3max,tv3max.dk,TV3 Max HD DK,norm match (multi),,HIGH
+TV3 Max FHD DK,45535,tv3max,tv3max.dk,TV3 Max HD DK,norm match (multi),,HIGH
+Fuel TV DK,86905,,,,no match,yes,LOW
+Outdoor Channel HD DK,86902,outdoorchannel,outdoorchannel.se,Outdoor Channel HD DK,norm match (multi),,LOW
+TV Marineret FHD DK,30430,,,,no match,yes,LOW
+DK 4 DK,8191,4,dk4.dk,DK 4 FHD DK,norm match (multi),,NORMAL
+DK 4 FHD DK,1238621,4,dk4.dk,DK 4 FHD DK,norm match (multi),,NORMAL
+DK 4 HD DK,97231,4,dk4.dk,DK 4 FHD DK,norm match (multi),,NORMAL
+Kanal 4 DK,86895,kanal4,kanal4.dk,Kanal 4 DK,norm match (multi),,HIGH
+Kanal 4 HD DK,23804,kanal4,kanal4.dk,Kanal 4 DK,norm match (multi),,HIGH
+Kanal 4 FHD DK,14109,kanal4,kanal4.dk,Kanal 4 DK,norm match (multi),,HIGH
+Kanal 5 DK,86896,kanal5,kanal5.dk,Kanal 5 DK,norm match (multi),,HIGH
+Kanal 5 HD DK,35367,kanal5,kanal5.dk,Kanal 5 DK,norm match (multi),,HIGH
+Kanal 5 FHD DK,8144,kanal5,kanal5.dk,Kanal 5 DK,norm match (multi),,HIGH
+Kanal Hovedstaden DK,290787,kanalhovedstaden,kanalhovedstaden.dk,Kanal Hovedstaden DK,norm match (dk preferred),,LOW
+6 Eren DK,86899,6eren,6eren.dk,6 Eren DK,norm match (multi),,HIGH
+6 Eren HD DK,20369,6eren,6eren.dk,6 Eren DK,norm match (multi),,HIGH
+6 Eren FHD DK,11674,6eren,6eren.dk,6 Eren DK,norm match (multi),,HIGH
+Canal 9 DK,86900,canal9,canal9.dk,Canal 9 DK,norm match (multi),,HIGH
+Canal 9 HD DK,8190,canal9,canal9.dk,Canal 9 DK,norm match (multi),,HIGH
+Canal 9 FHD DK,19535,canal9,canal9.dk,Canal 9 DK,norm match (multi),,HIGH
+Food Network FHD DK,523560,foodnetwork,foodnetwork.uk,Food Network,norm match (multi),,LOW
+Smithsonian Channel Selects HD DK,297775,,,,no match,yes,LOW
+Sky ShowTime 1 HD DK [Multi-Sub],296877,skyshowtime1,skyshowtime1.se,Sky ShowTime 1 FHD NO [Multi-Sub],norm match (multi),,HIGH
+Sky ShowTime 1 FHD DK [Multi-Sub],975724,skyshowtime1,skyshowtime1.se,Sky ShowTime 1 FHD NO [Multi-Sub],norm match (multi),,HIGH
+Sky ShowTime 2 HD DK [Multi-Sub],296878,skyshowtime2,skyshowtime2.se,Sky ShowTime 2 FHD NO [Multi-Sub],norm match (multi),,HIGH
+Sky ShowTime 2 FHD DK [Multi-Sub],975725,skyshowtime2,skyshowtime2.se,Sky ShowTime 2 FHD NO [Multi-Sub],norm match (multi),,HIGH
+MTV Aitio FHD DK [Multi-Sub],644615,,,,no match,yes,LOW
+Hits FHD DK [Multi-Sub],19542,hits,cmorehits.dk,Hits HD DK,norm match (multi),,NORMAL
+Hits HD DK,1027690,hits,cmorehits.dk,Hits HD DK,norm match (multi),,NORMAL
+Stars FHD DK [Multi-Sub],19543,stars,tv4stars.se,TV4 Stars FHD SE,norm match (multi),,NORMAL
+Travel Channel HD DK,290796,travelchannel,travelchannel.dk,Travel Channel HD DK,norm match (dk preferred),,LOW
+N1 Play PPV 1 DK  [PSG vs Bayern München @ Nov 4 1:55 PM UEFA CL ],515228,,,,no match,yes,NORMAL
+N1 Play PPV 2 DK [Tottenham vs FC København @ Nov 4 7:00 PM],515229,,,,no match,yes,NORMAL
+N1 PLAY Box Set FHD DK,161094,,,,no match,yes,LOW
+N1 Play Fast & Furious FHD DK,120370,,,,no match,yes,LOW
+N1 Paramount Movies FHD DK,317579,,,,no match,yes,HIGH
+N1 Paramount Movies 2 FHD DK,338277,,,,no match,yes,HIGH
+N1 Play Beck FHD DK,343268,,,,no match,yes,LOW
+N1 Play Premiere FHD DK,120333,,,,no match,yes,LOW
+N1 Play Action FHD DK,209709,,,,no match,yes,LOW
+N1 Play Comedy FHD DK,641861,,,,no match,yes,LOW
+N1 Play Family FHD DK,226409,n1playfamily,n1playfamilyfhddk.dk,N1 Play Family FHD DK,norm match (dk preferred),,LOW
+N1 Play Indie Film FHD DK,251430,,,,no match,yes,LOW
+N1 Play Horror FHD DK,432110,,,,no match,yes,LOW
+N1 Play Friends FHD DK,1159370,,,,no match,yes,LOW
+N1 Play Rick and Morty FHD DK,1159366,,,,no match,yes,LOW
+N1 Play Family Guy FHD DK,1159374,,,,no match,yes,LOW
+N1 Play Pirates of the Caribbean FHD DK,120290,n1playpiratesofthecaribbean,12,N1 Play Pirates of the Caribbean FHD NO,norm match (multi),,LOW
+N1 Play Two and a Half Men FHD DK,1154315,,,,no match,yes,LOW
+N1 Play The Simpsons FHD DK,1154311,,,,no match,yes,LOW
+N1 Play How I Met Your Mother FHD DK,1154307,,,,no match,yes,LOW
+N1 Play The Office FHD DK,1154291,,,,no match,yes,LOW
+N1 Play The Big Bang Theory FHD DK,1154287,,,,no match,yes,LOW
+N1 Play Hobbit & Lord Of The Rings FHD DK,1119180,,,,no match,yes,LOW
+N1 Play Planet of the Apes FHD DK,1141133,,,,no match,yes,LOW
+N1 Play Harry Potter FHD DK,1141128,,,,no match,yes,LOW
+N1 Play Johan Falk FHD DK,1141124,,,,no match,yes,LOW
+N1 Play Crime FHD DK,1119166,,,,no match,yes,LOW
+N1 Play James Bond FHD DK,1119176,,,,no match,yes,LOW
+N1 Play Romance FHD DK,1070131,,,,no match,yes,LOW
+N1 Play Documentary FHD DK,204388,,,,no match,yes,LOW
+N1 Play Stand Up FHD DK,1008676,n1playstandup,n1playstandupfhddk.dk,N1 Play Stand Up FHD DK,norm match (dk preferred),,LOW
+N1 Play Star Wars FHD DK,118915,n1playstarwars,n1playstarwarsfhddk.ad,N1 Play Star Wars FHD DK,norm match (multi),,LOW
+N1 Play Marvel FHD DK,140407,,,,no match,yes,LOW
+N1 Play Marvel Cinematic Universe FHD DK,1141120,,,,no match,yes,LOW
+N1 Play DC Universe FHD DK,211786,n1playdcuniverse,n1playdcuniversefhddk.dk,N1 Play DC Universe FHD DK,norm match (dk preferred),,LOW
+N1 Play Ice Age FHD DK,190716,,,,no match,yes,LOW
+N1 Play Disney Pixar FHD DK,505395,,,,no match,yes,LOW
+N1 Play Toon Disney FHD DK,207708,n1playtoondisney,n1playtoondisneyfhddk.dk,N1 Play Toon Disney FHD DK,norm match (dk preferred),,LOW
+N1 Play Pokemon Journeys FHD DK,509145,,,,no match,yes,LOW
+N1 Play South Park FHD DK,1000097,,,,no match,yes,LOW
+N1 Play Bluey FHD DK,484515,,,,no match,yes,LOW
+N1 Play Christmas FHD DK,1061594,,,,no match,yes,LOW
+N1 Play Christmas 2 FHD DK,136099,n1playchristmas2,117,N1 Play Christmas 2 FHD DK,norm match (multi),,LOW
+N1 Play Christmas Animated FHD DK,1061403,,,,no match,yes,LOW
+N1 Play Wallander FHD DK,353235,n1playwallander,n1playwallanderfhddk.dk,N1 Play Wallander FHD DK,norm match (dk preferred),,LOW
+N1 Play 1990s FHD DK,893569,,,,no match,yes,LOW
+N1 Play 1980s FHD DK,893568,,,,no match,yes,LOW
+N1 Play War DK,986009,,,,no match,yes,LOW
+Far Til Fire FHD DK,979276,,,,no match,yes,LOW
+Olsen-banden FHD DK,979275,,,,no match,yes,LOW
+Uptown Classic HD DK,346860,,,,no match,yes,LOW
+Uptown TV HD DK,346859,,,,no match,yes,LOW
+CNN International DK,86908,cnninternational,cnn.uk,CNN FHD UK,norm match (multi),,NORMAL
+CNN FHD DK,1080063,cnn,cnn.uk,CNN FHD UK,norm match (multi),,NORMAL
+BBC World News HD DK,86907,bbcworldnews,bbcworldnews.uk,BBC World News HD DK,norm match (multi),,NORMAL
+CGTN HD DK,954135,cgtn,cgtn.us,CGTN HD FI,norm match (multi),,LOW
+CGTN Documentary HD DK,954134,cgtndocumentary,cgtn-documentary.au,CGTN Documentary HD FI,norm match (multi),,LOW
+Eurosport 1 DK,86897,eurosport1,eurosport1.dk,Eurosport 1 FHD DK,norm match (multi),,HIGH
+Eurosport 1 HD DK,64428,eurosport1,eurosport1.dk,Eurosport 1 FHD DK,norm match (multi),,HIGH
+Eurosport 1 FHD DK,118372,eurosport1,eurosport1.dk,Eurosport 1 FHD DK,norm match (multi),,HIGH
+Eurosport 2 DK,86898,eurosport2,eurosport2.dk,Eurosport 2 FHD DK,norm match (multi),,HIGH
+Eurosport 2 HD DK,64429,eurosport2,eurosport2.dk,Eurosport 2 FHD DK,norm match (multi),,HIGH
+Eurosport 2 FHD DK,118373,eurosport2,eurosport2.dk,Eurosport 2 FHD DK,norm match (multi),,HIGH
+Sport Live DK,772176,sportlive,sportlive.dk,Sport Live HD DK,norm match (multi),,LOW
+Sport Live HD DK,854600,sportlive,sportlive.dk,Sport Live HD DK,norm match (multi),,LOW
+Sport Live FHD DK,151498,sportlive,sportlive.dk,Sport Live HD DK,norm match (multi),,LOW
+Pluto TV World Poker Tour HD DK,118343,,,,no match,yes,LOW
+PokerGo HD DK [Live During Events Only],118341,,,,no match,yes,LOW
+World Poker Tour FHD DK,118344,,,,no match,yes,LOW
+Discovery Channel HD DK,51789,discoverychannel,discoverychannel.dk,Discovery Channel HD DK,norm match (multi),,HIGH
+Discovery Channel FHD DK,11667,discoverychannel,discoverychannel.dk,Discovery Channel HD DK,norm match (multi),,HIGH
+Discovery Science HD DK,19474,discoveryscience,discoveryscience.dk,Discovery Science HD DK,norm match (dk preferred),,HIGH
+Investigation Discovery DK,17514,investigationdiscovery,investigationdiscovery.dk,Investigation Discovery FHD DK,norm match (multi),,HIGH
+Investigation Discovery HD DK,295649,investigationdiscovery,investigationdiscovery.dk,Investigation Discovery FHD DK,norm match (multi),,HIGH
+Investigation Discovery FHD DK,494685,investigationdiscovery,investigationdiscovery.dk,Investigation Discovery FHD DK,norm match (multi),,HIGH
+Animal Planet HD DK,31894,animalplanet,Animal Planet HD,Animal Planet HD,norm match (multi),,HIGH
+Animal Planet FHD DK [Multi-Sub],19769,animalplanet,Animal Planet HD,Animal Planet HD,norm match (multi),,HIGH
+E! Entertainment HD DK,20368,eentertainment,eentertainment.us,E! Entertainment TV,norm match (multi),,LOW
+H2 HD DK,37435,h2,h2.se,H2 FHD SE,norm match (multi),,NORMAL
+History HD DK,51800,history,history.dk,History HD DK,norm match (dk preferred),,NORMAL
+BBC Nordic HD DK,858004,bbcnordic,bbcnordic.dk,BBC Nordic HD DK,norm match (multi),,HIGH
+BBC Nordic FHD DK [Multi-Sub],21237,bbcnordic,bbcnordic.dk,BBC Nordic HD DK,norm match (multi),,HIGH
+National Geographic DK,31824,nationalgeographic,nationalgeographic.dk,National Geographic DK,norm match (multi),,HIGH
+National Geographic FHD DK,21239,nationalgeographic,nationalgeographic.dk,National Geographic DK,norm match (multi),,HIGH
+National Geographic Wild DK,17594,nationalgeographicwild,natgeowild.dk,National Geographic Wild FHD DK,norm match (multi),,HIGH
+National Geographic Wild FHD DK,30512,nationalgeographicwild,natgeowild.dk,National Geographic Wild FHD DK,norm match (multi),,HIGH
+MTV HD DK,17513,mtv,MTV.dk,MTV FHD DK,norm match (multi),,LOW
+MTV FHD DK,35279,mtv,MTV.dk,MTV FHD DK,norm match (multi),,LOW
+MTV Dance DK,51799,,,,no match,yes,LOW
+MTV 80s DK,51598,mtv80s,vh1.dk,MTV 80s DK,norm match (dk preferred),,LOW
+MTV 90s DK,51597,mtv90s,now90s.uk,NOW 90s UK,norm match (multi),,LOW
+MTV 00's DK,20419,mtv00s,mtv00s.dk,MTV 00's DK,norm match (dk preferred),,LOW
+TLC DK,14108,tlc,tlc.dk,TLC HD DK,norm match (multi),,HIGH
+TLC HD DK,772179,tlc,tlc.dk,TLC HD DK,norm match (multi),,HIGH
+TLC FHD DK,51794,tlc,tlc.dk,TLC HD DK,norm match (multi),,HIGH
+See HD DK,854599,see,see.dk,See HD DK,norm match (multi),,HIGH
+See FHD DK,51556,see,see.dk,See HD DK,norm match (multi),,HIGH
+N1 Play Børn FHD DK,118919,,,,no match,yes,LOW
+Cartoonito HD DK,51554,cartoonito,cartoonito.dk,Cartoonito HD FI [Multi-Audio],norm match (multi),,HIGH
+Cartoonito DK [Multi-Audio],17596,cartoonito,cartoonito.dk,Cartoonito HD FI [Multi-Audio],norm match (multi),,HIGH
+Disney Channel HD DK,904906,disneychannel,disneychannel.dk,Disney Channel HD DK,norm match (multi),,HIGH
+Disney Channel FHD DK,51555,disneychannel,disneychannel.dk,Disney Channel HD DK,norm match (multi),,HIGH
+Cartoon Network HD DK,86940,cartoonnetwork,cartoonnetwork.dk,Cartoon Network HD DK,norm match (multi),,HIGH
+Cartoon Network HD DK [Multi-Audio],49971,cartoonnetwork,cartoonnetwork.dk,Cartoon Network HD DK,norm match (multi),,HIGH
+Nick Jr DK [Multi-Audio],49970,nickjr,nickjr.dk,Nick Jr HD DK,norm match (multi),,HIGH
+Nick Jr HD DK,1238628,nickjr,nickjr.dk,Nick Jr HD DK,norm match (multi),,HIGH
+Nickelodeon HD DK,32474,nickelodeon,nickelodeon.dk,Nickelodeon FHD DK,norm match (multi),,HIGH
+Nickelodeon FHD DK,86939,nickelodeon,nickelodeon.dk,Nickelodeon FHD DK,norm match (multi),,HIGH
+NickToons DK [Multi-Audio],29288,nicktoons,nicktoons.se,NickToons SE,norm match (multi),,HIGH
+NickMusic DK,893556,nickmusic,nickmusic.dk,NickMusic DK,norm match (dk preferred),,LOW
+SF-Kanalen DK,29282,sfkanalen,sfkanalen.dk,SF-Kanalen DK,norm match (dk preferred),,NORMAL
+Viaplay Sport News HD DK,991816,viaplaysportnews,viaplaysportnews.dk,Viaplay Sport News HD DK,norm match (dk preferred),,HIGH
+V Sport Golf DK,251831,vsportgolf,viasatgolf.dk,V Sport Golf FHD DK [Multi-Audio],norm match (multi),,LOW
+V Sport Golf HD DK,118374,vsportgolf,viasatgolf.dk,V Sport Golf FHD DK [Multi-Audio],norm match (multi),,LOW
+V Sport Golf FHD DK [Multi-Audio],946821,vsportgolf,viasatgolf.dk,V Sport Golf FHD DK [Multi-Audio],norm match (multi),,LOW
+V Sport Ultra 4K DK [Only On 4K Devices],114242,vsportultra,viasatultra.dk,V Sport Ultra 4K DK [Multi-Audio],norm match (multi),,NORMAL
+V Sport Ultra 4K DK [Multi-Audio],668324,vsportultra,viasatultra.dk,V Sport Ultra 4K DK [Multi-Audio],norm match (multi),,NORMAL
+V Film Action HD DK,19478,vfilmaction,viasataction.dk,V Film Action FHD DK [Multi-Sub],norm match (multi),,HIGH
+V Film Action FHD DK [Multi-Sub],319698,vfilmaction,viasataction.dk,V Film Action FHD DK [Multi-Sub],norm match (multi),,HIGH
+V Film Family DK [Multi-Sub],19482,vfilmfamily,viasatfamily.dk,V Film Family HD DK,norm match (multi),,HIGH
+V Film Family HD DK,321278,vfilmfamily,viasatfamily.dk,V Film Family HD DK,norm match (multi),,HIGH
+V Film Hits HD DK,319710,vfilmhits,viasathits.dk,V Film Hits HD DK,norm match (multi),,HIGH
+V Film Hits FHD DK [Multi-Sub],19480,vfilmhits,viasathits.dk,V Film Hits HD DK,norm match (multi),,HIGH
+V Film Premiere HD DK,19541,vfilmpremiere,viasatfilmpremiere.dk,V Film Premiere FHD DK [Multi-Sub],norm match (multi),,HIGH
+V Film Premiere FHD DK [Multi-Sub],321270,vfilmpremiere,viasatfilmpremiere.dk,V Film Premiere FHD DK [Multi-Sub],norm match (multi),,HIGH
+V Series HD DK,321288,vseries,viasatseries.dk,V Series FHD DK [Multi-Sub],norm match (multi),,HIGH
+V Series FHD DK [Multi-Sub],631807,vseries,viasatseries.dk,V Series FHD DK [Multi-Sub],norm match (multi),,HIGH
+Viasat History HD DK,19540,viasathistory,viasathistory.dk,Viasat History FHD DK [Multi-Sub],norm match (multi),,NORMAL
+Viasat History FHD DK [Multi-Sub],774459,viasathistory,viasathistory.dk,Viasat History FHD DK [Multi-Sub],norm match (multi),,NORMAL
+Viasat Explorer HD DK,51551,viasatexplorer,viasatexplore.dk,Viasat Explorer FHD DK [Multi-Sub],norm match (multi),,NORMAL
+Viasat Explorer FHD DK [Multi-Sub],774460,viasatexplorer,viasatexplore.dk,Viasat Explorer FHD DK [Multi-Sub],norm match (multi),,NORMAL
+Viasat Nature HD DK,41317,viasatnature,viasatnature.dk,Viasat Nature FHD DK [Multi-Sub],norm match (multi),,HIGH
+Viasat Nature FHD DK [Multi-Sub],774461,viasatnature,viasatnature.dk,Viasat Nature FHD DK [Multi-Sub],norm match (multi),,HIGH
